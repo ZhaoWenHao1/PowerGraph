@@ -1,0 +1,14 @@
+# Target labels
+ hadoop
+# Source files and their labels
+/root/PowerGraph/release/CMakeFiles/hadoop
+/root/PowerGraph/release/CMakeFiles/hadoop.rule
+/root/PowerGraph/release/CMakeFiles/hadoop-complete.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-install.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-mkdir.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-download.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-update.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-patch.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-configure.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-build.rule
+/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-test.rule

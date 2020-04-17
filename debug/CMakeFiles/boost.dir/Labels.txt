@@ -1,0 +1,13 @@
+# Target labels
+ boost
+# Source files and their labels
+/root/PowerGraph/debug/CMakeFiles/boost
+/root/PowerGraph/debug/CMakeFiles/boost.rule
+/root/PowerGraph/debug/CMakeFiles/boost-complete.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-install.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-mkdir.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-download.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-update.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-patch.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-configure.rule
+/root/PowerGraph/deps/boost/src/boost-stamp/boost-build.rule

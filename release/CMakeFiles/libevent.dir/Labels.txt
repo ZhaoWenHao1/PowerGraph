@@ -1,0 +1,13 @@
+# Target labels
+ libevent
+# Source files and their labels
+/root/PowerGraph/release/CMakeFiles/libevent
+/root/PowerGraph/release/CMakeFiles/libevent.rule
+/root/PowerGraph/release/CMakeFiles/libevent-complete.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-install.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-mkdir.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-download.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-update.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-patch.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-configure.rule
+/root/PowerGraph/deps/event/src/libevent-stamp/libevent-build.rule

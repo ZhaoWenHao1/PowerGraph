@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/libtcmalloc"
+		},
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/libtcmalloc.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/libtcmalloc-complete.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libtcmalloc"
+		],
+		"name" : "libtcmalloc"
+	}
+}

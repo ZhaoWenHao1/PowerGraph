@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/hadoop"
+		},
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/hadoop.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/hadoop-complete.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-install.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-mkdir.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-download.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-update.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-patch.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-configure.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-build.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hadoop"
+		],
+		"name" : "hadoop"
+	}
+}

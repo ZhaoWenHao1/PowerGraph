@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/eigen"
+		},
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/eigen.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/release/CMakeFiles/eigen-complete.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-install.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-mkdir.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-download.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-update.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-patch.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-configure.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/eigen/src/eigen-stamp/eigen-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen"
+		],
+		"name" : "eigen"
+	}
+}

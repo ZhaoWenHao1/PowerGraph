@@ -1,0 +1,13 @@
+# Target labels
+ zookeeper
+# Source files and their labels
+/root/PowerGraph/debug/CMakeFiles/zookeeper
+/root/PowerGraph/debug/CMakeFiles/zookeeper.rule
+/root/PowerGraph/debug/CMakeFiles/zookeeper-complete.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-install.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-mkdir.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-download.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-update.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-patch.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-configure.rule
+/root/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-build.rule

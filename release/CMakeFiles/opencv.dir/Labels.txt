@@ -1,0 +1,13 @@
+# Target labels
+ opencv
+# Source files and their labels
+/root/PowerGraph/release/CMakeFiles/opencv
+/root/PowerGraph/release/CMakeFiles/opencv.rule
+/root/PowerGraph/release/CMakeFiles/opencv-complete.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-install.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-mkdir.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-download.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-update.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-patch.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-configure.rule
+/root/PowerGraph/deps/opencv/src/opencv-stamp/opencv-build.rule

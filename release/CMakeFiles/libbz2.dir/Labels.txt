@@ -1,0 +1,13 @@
+# Target labels
+ libbz2
+# Source files and their labels
+/root/PowerGraph/release/CMakeFiles/libbz2
+/root/PowerGraph/release/CMakeFiles/libbz2.rule
+/root/PowerGraph/release/CMakeFiles/libbz2-complete.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-install.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-mkdir.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-download.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-update.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-patch.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-configure.rule
+/root/PowerGraph/deps/libbz2/src/libbz2-stamp/libbz2-build.rule

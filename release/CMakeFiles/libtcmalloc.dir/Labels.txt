@@ -1,0 +1,13 @@
+# Target labels
+ libtcmalloc
+# Source files and their labels
+/root/PowerGraph/release/CMakeFiles/libtcmalloc
+/root/PowerGraph/release/CMakeFiles/libtcmalloc.rule
+/root/PowerGraph/release/CMakeFiles/libtcmalloc-complete.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule
+/root/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/libevent"
+		},
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/libevent.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/debug/CMakeFiles/libevent-complete.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-install.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-mkdir.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-download.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-update.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-patch.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-configure.rule"
+		},
+		{
+			"file" : "/root/PowerGraph/deps/event/src/libevent-stamp/libevent-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libevent"
+		],
+		"name" : "libevent"
+	}
+}
