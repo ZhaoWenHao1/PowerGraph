@@ -25,12 +25,15 @@
  * Djikstra Graph Node Class
  *
  * This class contains the information about a single graphlab node.
- * id - current best path's previous node id - next node on path to root
+ * id - current best path's previous node id - next node on path to root 最短路径的前一个id
  * cost - current cost of the path to route by the current route: Note - this
  *       can become inaccurate in the course of calculations and must be recalculated
  *       by traversing the shortest path tree to get an accurate result.
- * launched - has execution of this node been sheduled
- * done - has execution of this node been completed
+ *        当前最短路径的花费，ps：经过一系列计算可能不正确，必须通过遍历最短路径树重新计算以获得准确的结果
+ * 
+ * launched - has execution of this node been sheduled  此节点的执行是否已被调度
+ * done - has execution of this node been completed    此节点的执行是否已经完成
+ * 
  */
 class DjikstraNode {
 public:
@@ -57,14 +60,16 @@ public:
 
 /*
  * PrestigeAnalysisNode
- * Graph Node class for running multiple djikstra tree algorithms simultaneously
- * Contains a map of node id's to DjikstraNode instances
+ * Graph Node class for running multiple djikstra tree algorithms simultaneously  
+ * Contains a map of node id's to DjikstraNode instances  节点ID到DjikstraNode实例 map
  * bookkeeping components
- *
+ * 图节点类，用于同时运行多个djikstra树算法
+ * 
  */
+// vertex_data_type  顶点数据类型
 class PrestigeAnalysisNode {
 public:
-    std::map<long,DjikstraNode> djikstra_pieces;
+    std::map<long,DjikstraNode> djikstra_pieces; // 包含一组到达DjikstraNode实例的结点id
 	double local_value;
 	double total;
 	long count;
@@ -134,11 +139,11 @@ public:
 /*
  * GatherMultiTree
  * map of djisktra root id's to their asociated content for that tree
- *
+ * 
  */
 class GatherMultiTree {
 public:
-    std::map<long,Gather> content;
+    std::map<long,Gather> content; // djisktra root节点到该树的相关内容
 	int edge_count;
 
 	GatherMultiTree(){
@@ -170,6 +175,8 @@ typedef graphlab::distributed_graph<vertex_data_type, double> graph_type;
  * Loads graphs in the form 'id (id edge_strength)*'
  *
  */
+// 输入的字符流格式为： vid oid val oid val oid val  一个顶点id 和 n个其他顶点id和边长
+
 bool line_parser(graph_type& graph, const std::string& filename, const std::string& textline) {
   std::stringstream strm(textline);
   graphlab::vertex_id_type vid;
@@ -195,6 +202,7 @@ bool line_parser(graph_type& graph, const std::string& filename, const std::stri
 /*
  * Algorithm class whose sole purpose is to reset launched and done booleans
  * for all id's in a PrestigeAnalysisNode
+ * 该类唯一的目的是重置一个PrestigeAnalysisNode节点中所有id的 launched 和 done 的布尔值
  */
 class ClearBooleans :
         public graphlab::ivertex_program<graph_type, gather_type>,

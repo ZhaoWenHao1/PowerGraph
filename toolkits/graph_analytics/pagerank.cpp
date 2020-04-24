@@ -92,7 +92,10 @@ public:
   double gather(icontext_type& context, const vertex_type& vertex,
                edge_type& edge) const {
     return (edge.source().data() / edge.source().num_out_edges());
+    // edge.source()得到 弧尾
+    // 
   }
+  // 返回后会由执行引擎用 += 进行相加
 
   /* Use the total rank of adjacent pages to update this page */
   void apply(icontext_type& context, vertex_type& vertex,
@@ -101,7 +104,10 @@ public:
     const double newval = (1.0 - RESET_PROB) * total + RESET_PROB;
     last_change = (newval - vertex.data());
     vertex.data() = newval;
-    if (ITERATIONS) context.signal(vertex);
+    if (ITERATIONS) context.signal(vertex); // 插入当前顶点到调度器
+    // 被通知的顶点将在signal调用一段时间后执行相关程序
+    // 如果与同步引擎一起使用，此程序将执行与传统类似“矩阵乘法”的PageRank迭代完全相同的操作。
+
   }
 
   /* The scatter edges depend on whether the pagerank has converged */
@@ -112,7 +118,7 @@ public:
     // In the dynamic case we run scatter on out edges if the we need
     // to maintain the delta cache or the tolerance is above bound.
     if(USE_DELTA_CACHE || std::fabs(last_change) > TOLERANCE ) {
-      return graphlab::OUT_EDGES;
+      return graphlab::OUT_EDGES;  // 在vertex的出度边上执行scatter操作
     } else {
       return graphlab::NO_EDGES;
     }
@@ -247,8 +253,8 @@ int main(int argc, char** argv) {
 
   // Running The Engine -------------------------------------------------------
   graphlab::omni_engine<pagerank> engine(dc, graph, exec_type, clopts);
-  engine.signal_all();
-  engine.start();
+  engine.signal_all(); // 通知图中所有的顶点去run
+  engine.start(); // 开始在所有被通知的顶点执行
   const double runtime = engine.elapsed_seconds();
   dc.cout() << "Finished Running engine in " << runtime
             << " seconds." << std::endl;

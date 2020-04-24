@@ -35,7 +35,6 @@ typedef float distance_type;
 
 /**
  * \brief The current distance of the vertex.
- *  顶点数据：存放到达定点的当前最短距离
  */
 struct vertex_data : graphlab::IS_POD_TYPE {
   distance_type dist;
@@ -47,7 +46,6 @@ struct vertex_data : graphlab::IS_POD_TYPE {
 
 /**
  * \brief The distance associated with the edge.
- * 边数据：边的权值
  */
 struct edge_data : graphlab::IS_POD_TYPE {
   distance_type dist;
@@ -64,7 +62,6 @@ typedef graphlab::distributed_graph<vertex_data, edge_data> graph_type;
 
 /**
  * \brief Get the other vertex in the edge.
- * 根据现有的edge和vertex得到edge的另一个顶点
  */
 inline graph_type::vertex_type
 get_other_vertex(const graph_type::edge_type& edge,
@@ -75,9 +72,8 @@ get_other_vertex(const graph_type::edge_type& edge,
 
 /**
  * \brief Use directed or undireced edges.
- * 
  */
-bool DIRECTED_SSSP = false; // 边是否有向，默认为无向，即图为无向图
+bool DIRECTED_SSSP = false;
 
 
 /**
@@ -87,7 +83,6 @@ struct min_distance_type : graphlab::IS_POD_TYPE {
   distance_type dist;
   min_distance_type(distance_type dist = 
                     std::numeric_limits<distance_type>::max()) : dist(dist) { }
-  // sum操作，选取gather到的最小距离
   min_distance_type& operator+=(const min_distance_type& other) {
     dist = std::min(dist, other.dist);
     return *this;
@@ -97,7 +92,6 @@ struct min_distance_type : graphlab::IS_POD_TYPE {
 
 /**
  * \brief The single source shortest path vertex program.
- * 单源最短路径的顶点程序，继承graphlab::ivertex_program和graphlab::IS_POD_TYPE
  */
 class sssp :
   public graphlab::ivertex_program<graph_type, 
@@ -157,7 +151,6 @@ public:
 
   /**
    * \brief The scatter function just signal adjacent pages 
-   * 对于每一个出度的边/所有边，都执行一次
    */
   void scatter(icontext_type& context, const vertex_type& vertex,
                edge_type& edge) const {
@@ -176,7 +169,7 @@ public:
 
 /**
  * \brief We want to save the final graph so we define a write which will be
- * used in graph.save("path/prefix", shortest_path_writer()) to save the graph.
+ * used in graph.save("path/prefix", pagerank_writer()) to save the graph.
  */
 struct shortest_path_writer {
   std::string save_vertex(const graph_type::vertex_type& vtx) {
@@ -188,7 +181,7 @@ struct shortest_path_writer {
 }; // end of shortest_path_writer
 
 
-// 返回度比较大的
+
 struct max_deg_vertex_reducer: public graphlab::IS_POD_TYPE {
   size_t degree;
   graphlab::vertex_id_type vid;
@@ -200,8 +193,6 @@ struct max_deg_vertex_reducer: public graphlab::IS_POD_TYPE {
   }
 };
 
-// 找到度最大的顶点  将顶点的入度和出度的和 顶点id 封装到 max_deg_vertex_reducer中，而该类重写了sum函数，多个
-// max_deg_vertex_reducer实例 sum后得到的是 度最大的那个实例
 max_deg_vertex_reducer find_max_deg_vertex(const graph_type::vertex_type vtx) {
   max_deg_vertex_reducer red;
   red.degree = vtx.num_in_edges() + vtx.num_out_edges();
@@ -222,7 +213,7 @@ int main(int argc, char** argv) {
   std::string format = "adj";
   std::string exec_type = "synchronous";
   size_t powerlaw = 0;
-  std::vector<unsigned int> sources; // 源顶点vid 如果只有一个就是单源最短，如果有多个就是到多个源中的任一个最短
+  std::vector<unsigned int> sources;
   bool max_degree_source = false;
   clopts.attach_option("graph", graph_dir,
                        "The graph file.  If none is provided "
