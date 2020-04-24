@@ -43,6 +43,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/root/PowerGraph/debug/apps/concomp/cmake_install.cmake")
   include("/root/PowerGraph/debug/apps/example/cmake_install.cmake")
   include("/root/PowerGraph/debug/apps/label_propagation/cmake_install.cmake")
+  include("/root/PowerGraph/debug/apps/mysssp/cmake_install.cmake")
+  include("/root/PowerGraph/debug/apps/widest_path/cmake_install.cmake")
 
 endif()
 

@@ -1701,6 +1701,32 @@ label_propagation/fast:
 	$(MAKE) -f apps/label_propagation/CMakeFiles/label_propagation.dir/build.make apps/label_propagation/CMakeFiles/label_propagation.dir/build
 .PHONY : label_propagation/fast
 
+#=============================================================================
+# Target rules for targets named mysssp
+
+# Build rule for target.
+mysssp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mysssp
+.PHONY : mysssp
+
+# fast build rule for target.
+mysssp/fast:
+	$(MAKE) -f apps/mysssp/CMakeFiles/mysssp.dir/build.make apps/mysssp/CMakeFiles/mysssp.dir/build
+.PHONY : mysssp/fast
+
+#=============================================================================
+# Target rules for targets named widest_path
+
+# Build rule for target.
+widest_path: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 widest_path
+.PHONY : widest_path
+
+# fast build rule for target.
+widest_path/fast:
+	$(MAKE) -f apps/widest_path/CMakeFiles/widest_path.dir/build.make apps/widest_path/CMakeFiles/widest_path.dir/build
+.PHONY : widest_path/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1832,6 +1858,8 @@ help:
 	@echo "... concomp"
 	@echo "... hello_world"
 	@echo "... label_propagation"
+	@echo "... mysssp"
+	@echo "... widest_path"
 .PHONY : help
 
 

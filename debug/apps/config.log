@@ -1,0 +1,51 @@
+Fri Apr 24 21:22:30 CST 2020
+System Information: 
+#92-Ubuntu SMP Fri Feb 28 11:09:48 UTC 2020
+Compiler Information: 
+gcc (Ubuntu 4.8.5-4ubuntu8) 4.8.5
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+g++ (Ubuntu 4.8.5-4ubuntu8) 4.8.5
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+cmake version 3.13.0-rc1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+javac 11.0.6
+# Release build directory:
+	 RELEASE_DIR=release
+# Debug build directory (optimization disabled):
+	 DEBUG_DIR=debug
+# Directory in which graphlab is installed (prefix):
+	 INSTALL_DIR=/usr/local
+# Is experimental (research) code enabled:
+	 EXPERIMENTAL=false
+# The graphlab home directory: 
+	 GRAPHLAB_HOME=/root/PowerGraph/debug/apps
+# The directory in which graphlab installs external dependencies:
+	 DEPS_PREFIX=/root/PowerGraph/debug/apps/deps/local
+# Use OpenMP?  This can accelerate some graph building code: 
+	 NO_OPENMP=false
+# Use MPI?  Without MPI GraphLab cannot run distributed: 
+	 NO_MPI=false
+# Use tcmalloc?  Thread-Caching Malloc improves memory allocation: 
+	 NO_TCMALLOC=false
+# The c compiler to use: 
+	 CC=gcc
+# The c++ compiler to use: 
+	 CXX=g++
+# Any addition user defined CFLAGS: 
+	 CFLAGS=
+# The Java compiler: 
+	 JAVAC=javac
+# The cmake binary used to geneate the project:
+	 CMAKE=cmake
+
+
+
+======================= Release ========================
+cmake -D CMAKE_BUILD_TYPE=Release -D NO_OPENMP:BOOL=false -D NO_MPI:BOOL=false -D NO_TCMALLOC:BOOL=false -D CMAKE_INSTALL_PREFIX:STRING=/usr/local -D EXPERIMENTAL:BOOL=false -D CPP11:BOOL=false -D VID32:BOOL=false ../.

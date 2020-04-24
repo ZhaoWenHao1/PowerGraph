@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /root/PowerGraph/debug
 CMakeFiles/eigen.dir/all:
 	$(MAKE) -f CMakeFiles/eigen.dir/build.make CMakeFiles/eigen.dir/depend
 	$(MAKE) -f CMakeFiles/eigen.dir/build.make CMakeFiles/eigen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=21,22,23 "Built target eigen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=21,22 "Built target eigen"
 .PHONY : CMakeFiles/eigen.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/eigen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/eigen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eigen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/eigen.dir/rule
@@ -108,7 +108,7 @@ clean: CMakeFiles/eigen.dir/clean
 CMakeFiles/hadoop.dir/all:
 	$(MAKE) -f CMakeFiles/hadoop.dir/build.make CMakeFiles/hadoop.dir/depend
 	$(MAKE) -f CMakeFiles/hadoop.dir/build.make CMakeFiles/hadoop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=43,44,45 "Built target hadoop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=43,44 "Built target hadoop"
 .PHONY : CMakeFiles/hadoop.dir/all
 
 # Include target in all.
@@ -118,7 +118,7 @@ all: CMakeFiles/hadoop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hadoop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hadoop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/hadoop.dir/rule
@@ -145,7 +145,7 @@ clean: CMakeFiles/hadoop.dir/clean
 CMakeFiles/boost.dir/all: CMakeFiles/libbz2.dir/all
 	$(MAKE) -f CMakeFiles/boost.dir/build.make CMakeFiles/boost.dir/depend
 	$(MAKE) -f CMakeFiles/boost.dir/build.make CMakeFiles/boost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=5,6,7 "Built target boost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=5,6 "Built target boost"
 .PHONY : CMakeFiles/boost.dir/all
 
 # Include target in all.
@@ -155,7 +155,7 @@ all: CMakeFiles/boost.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/boost.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/boost.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/boost.dir/rule
@@ -182,7 +182,7 @@ clean: CMakeFiles/boost.dir/clean
 CMakeFiles/libtcmalloc.dir/all:
 	$(MAKE) -f CMakeFiles/libtcmalloc.dir/build.make CMakeFiles/libtcmalloc.dir/depend
 	$(MAKE) -f CMakeFiles/libtcmalloc.dir/build.make CMakeFiles/libtcmalloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=56,57 "Built target libtcmalloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=55,56,57 "Built target libtcmalloc"
 .PHONY : CMakeFiles/libtcmalloc.dir/all
 
 # Include target in all.
@@ -192,7 +192,7 @@ all: CMakeFiles/libtcmalloc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libtcmalloc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libtcmalloc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/libtcmalloc.dir/rule
@@ -219,7 +219,7 @@ clean: CMakeFiles/libtcmalloc.dir/clean
 CMakeFiles/libbz2.dir/all:
 	$(MAKE) -f CMakeFiles/libbz2.dir/build.make CMakeFiles/libbz2.dir/depend
 	$(MAKE) -f CMakeFiles/libbz2.dir/build.make CMakeFiles/libbz2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=51,52,53 "Built target libbz2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=51,52 "Built target libbz2"
 .PHONY : CMakeFiles/libbz2.dir/all
 
 # Include target in all.
@@ -229,7 +229,7 @@ all: CMakeFiles/libbz2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libbz2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libbz2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/libbz2.dir/rule
@@ -293,7 +293,7 @@ clean: CMakeFiles/opencv.dir/clean
 CMakeFiles/libevent.dir/all:
 	$(MAKE) -f CMakeFiles/libevent.dir/build.make CMakeFiles/libevent.dir/depend
 	$(MAKE) -f CMakeFiles/libevent.dir/build.make CMakeFiles/libevent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=54,55 "Built target libevent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=53,54 "Built target libevent"
 .PHONY : CMakeFiles/libevent.dir/all
 
 # Include target in all.
@@ -376,7 +376,7 @@ CMakeFiles/external_dependencies.dir/all: CMakeFiles/zookeeper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/external_dependencies.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/external_dependencies.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : CMakeFiles/external_dependencies.dir/rule
@@ -506,7 +506,7 @@ tests/CMakeFiles/hopscotch_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/hopscotch_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/hopscotch_test.dir/build.make tests/CMakeFiles/hopscotch_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/hopscotch_test.dir/build.make tests/CMakeFiles/hopscotch_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=47 "Built target hopscotch_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target hopscotch_test"
 .PHONY : tests/CMakeFiles/hopscotch_test.dir/all
 
 # Include target in all.
@@ -516,7 +516,7 @@ all: tests/CMakeFiles/hopscotch_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/hopscotch_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/hopscotch_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/hopscotch_test.dir/rule
@@ -558,7 +558,7 @@ all: tests/CMakeFiles/sort_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/sort_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/sort_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/sort_test.dir/rule
@@ -600,7 +600,7 @@ all: tests/CMakeFiles/arbitrary_signal_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/arbitrary_signal_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/arbitrary_signal_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/arbitrary_signal_test.dir/rule
@@ -642,7 +642,7 @@ all: tests/CMakeFiles/test_vertex_set.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/test_vertex_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_vertex_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/test_vertex_set.dir/rule
@@ -674,7 +674,7 @@ tests/CMakeFiles/fiber_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/fiber_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/fiber_test.dir/build.make tests/CMakeFiles/fiber_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/fiber_test.dir/build.make tests/CMakeFiles/fiber_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target fiber_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=25 "Built target fiber_test"
 .PHONY : tests/CMakeFiles/fiber_test.dir/all
 
 # Include target in all.
@@ -716,7 +716,7 @@ tests/CMakeFiles/mini_web_server.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/mini_web_server.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/mini_web_server.dir/build.make tests/CMakeFiles/mini_web_server.dir/depend
 	$(MAKE) -f tests/CMakeFiles/mini_web_server.dir/build.make tests/CMakeFiles/mini_web_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target mini_web_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=60 "Built target mini_web_server"
 .PHONY : tests/CMakeFiles/mini_web_server.dir/all
 
 # Include target in all.
@@ -758,7 +758,7 @@ tests/CMakeFiles/thread_tools.cxxtest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/thread_tools.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/thread_tools.cxxtest.dir/build.make tests/CMakeFiles/thread_tools.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/thread_tools.cxxtest.dir/build.make tests/CMakeFiles/thread_tools.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=94 "Built target thread_tools.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target thread_tools.cxxtest"
 .PHONY : tests/CMakeFiles/thread_tools.cxxtest.dir/all
 
 # Include target in all.
@@ -768,7 +768,7 @@ all: tests/CMakeFiles/thread_tools.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/thread_tools.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/thread_tools.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/thread_tools.cxxtest.dir/rule
@@ -800,7 +800,7 @@ tests/CMakeFiles/distributed_ingress_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/distributed_ingress_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/distributed_ingress_test.dir/build.make tests/CMakeFiles/distributed_ingress_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/distributed_ingress_test.dir/build.make tests/CMakeFiles/distributed_ingress_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=20 "Built target distributed_ingress_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target distributed_ingress_test"
 .PHONY : tests/CMakeFiles/distributed_ingress_test.dir/all
 
 # Include target in all.
@@ -810,7 +810,7 @@ all: tests/CMakeFiles/distributed_ingress_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/distributed_ingress_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/distributed_ingress_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/distributed_ingress_test.dir/rule
@@ -852,7 +852,7 @@ all: tests/CMakeFiles/distributed_chandy_misra_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/distributed_chandy_misra_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/distributed_chandy_misra_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/distributed_chandy_misra_test.dir/rule
@@ -884,7 +884,7 @@ tests/CMakeFiles/cuckootest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/cuckootest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/cuckootest.dir/build.make tests/CMakeFiles/cuckootest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/cuckootest.dir/build.make tests/CMakeFiles/cuckootest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target cuckootest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=12 "Built target cuckootest"
 .PHONY : tests/CMakeFiles/cuckootest.dir/all
 
 # Include target in all.
@@ -926,7 +926,7 @@ tests/CMakeFiles/fibo_fiber_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/fibo_fiber_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/fibo_fiber_test.dir/build.make tests/CMakeFiles/fibo_fiber_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/fibo_fiber_test.dir/build.make tests/CMakeFiles/fibo_fiber_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=26 "Built target fibo_fiber_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target fibo_fiber_test"
 .PHONY : tests/CMakeFiles/fibo_fiber_test.dir/all
 
 # Include target in all.
@@ -936,7 +936,7 @@ all: tests/CMakeFiles/fibo_fiber_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fibo_fiber_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/fibo_fiber_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fibo_fiber_test.dir/rule
@@ -968,7 +968,7 @@ tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/all: CMakeFiles/zookeeper.dir/a
 tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/build.make tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/build.make tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=91 "Built target test_lock_free_pool.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=90 "Built target test_lock_free_pool.cxxtest"
 .PHONY : tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/all
 
 # Include target in all.
@@ -978,7 +978,7 @@ all: tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/test_lock_free_pool.cxxtest.dir/rule
@@ -1020,7 +1020,7 @@ all: tests/CMakeFiles/dc_consensus_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/dc_consensus_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/dc_consensus_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/dc_consensus_test.dir/rule
@@ -1052,7 +1052,7 @@ tests/CMakeFiles/serializetests.cxxtest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/serializetests.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/serializetests.cxxtest.dir/build.make tests/CMakeFiles/serializetests.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/serializetests.cxxtest.dir/build.make tests/CMakeFiles/serializetests.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=76 "Built target serializetests.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=75 "Built target serializetests.cxxtest"
 .PHONY : tests/CMakeFiles/serializetests.cxxtest.dir/all
 
 # Include target in all.
@@ -1062,7 +1062,7 @@ all: tests/CMakeFiles/serializetests.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/serializetests.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/serializetests.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/serializetests.cxxtest.dir/rule
@@ -1094,7 +1094,7 @@ tests/CMakeFiles/lock_free_pushback.cxxtest.dir/all: CMakeFiles/zookeeper.dir/al
 tests/CMakeFiles/lock_free_pushback.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/lock_free_pushback.cxxtest.dir/build.make tests/CMakeFiles/lock_free_pushback.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/lock_free_pushback.cxxtest.dir/build.make tests/CMakeFiles/lock_free_pushback.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=59 "Built target lock_free_pushback.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target lock_free_pushback.cxxtest"
 .PHONY : tests/CMakeFiles/lock_free_pushback.cxxtest.dir/all
 
 # Include target in all.
@@ -1104,7 +1104,7 @@ all: tests/CMakeFiles/lock_free_pushback.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/lock_free_pushback.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/lock_free_pushback.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/lock_free_pushback.cxxtest.dir/rule
@@ -1146,7 +1146,7 @@ all: tests/CMakeFiles/empty_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/empty_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/empty_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/empty_test.cxxtest.dir/rule
@@ -1178,7 +1178,7 @@ tests/CMakeFiles/small_map_test.cxxtest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/small_map_test.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/small_map_test.cxxtest.dir/build.make tests/CMakeFiles/small_map_test.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/small_map_test.cxxtest.dir/build.make tests/CMakeFiles/small_map_test.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target small_map_test.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=79 "Built target small_map_test.cxxtest"
 .PHONY : tests/CMakeFiles/small_map_test.cxxtest.dir/all
 
 # Include target in all.
@@ -1220,7 +1220,7 @@ tests/CMakeFiles/sfinae_function_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/sfinae_function_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/sfinae_function_test.dir/build.make tests/CMakeFiles/sfinae_function_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/sfinae_function_test.dir/build.make tests/CMakeFiles/sfinae_function_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target sfinae_function_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=76 "Built target sfinae_function_test"
 .PHONY : tests/CMakeFiles/sfinae_function_test.dir/all
 
 # Include target in all.
@@ -1272,7 +1272,7 @@ all: tests/CMakeFiles/distributed_graph_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/distributed_graph_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/distributed_graph_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/distributed_graph_test.dir/rule
@@ -1314,7 +1314,7 @@ all: tests/CMakeFiles/union_find_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/union_find_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/union_find_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/union_find_test.cxxtest.dir/rule
@@ -1346,7 +1346,7 @@ tests/CMakeFiles/dense_bitset_test.cxxtest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/dense_bitset_test.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/dense_bitset_test.cxxtest.dir/build.make tests/CMakeFiles/dense_bitset_test.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/dense_bitset_test.cxxtest.dir/build.make tests/CMakeFiles/dense_bitset_test.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=17 "Built target dense_bitset_test.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target dense_bitset_test.cxxtest"
 .PHONY : tests/CMakeFiles/dense_bitset_test.cxxtest.dir/all
 
 # Include target in all.
@@ -1356,7 +1356,7 @@ all: tests/CMakeFiles/dense_bitset_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/dense_bitset_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/dense_bitset_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/dense_bitset_test.cxxtest.dir/rule
@@ -1398,7 +1398,7 @@ all: tests/CMakeFiles/small_set_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/small_set_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/small_set_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/small_set_test.cxxtest.dir/rule
@@ -1440,7 +1440,7 @@ all: tests/CMakeFiles/random_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/random_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/random_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/random_test.cxxtest.dir/rule
@@ -1472,7 +1472,7 @@ tests/CMakeFiles/csr_storage_test.cxxtest.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/csr_storage_test.cxxtest.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/csr_storage_test.cxxtest.dir/build.make tests/CMakeFiles/csr_storage_test.cxxtest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/csr_storage_test.cxxtest.dir/build.make tests/CMakeFiles/csr_storage_test.cxxtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=12 "Built target csr_storage_test.cxxtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target csr_storage_test.cxxtest"
 .PHONY : tests/CMakeFiles/csr_storage_test.cxxtest.dir/all
 
 # Include target in all.
@@ -1482,7 +1482,7 @@ all: tests/CMakeFiles/csr_storage_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/csr_storage_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/csr_storage_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/csr_storage_test.cxxtest.dir/rule
@@ -1524,7 +1524,7 @@ all: tests/CMakeFiles/local_graph_test.cxxtest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/local_graph_test.cxxtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/local_graph_test.cxxtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/local_graph_test.cxxtest.dir/rule
@@ -1566,7 +1566,7 @@ all: tests/CMakeFiles/dc_fiber_consensus_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/dc_fiber_consensus_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/dc_fiber_consensus_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/dc_fiber_consensus_test.dir/rule
@@ -1608,7 +1608,7 @@ all: tests/CMakeFiles/dc_test_sequentialization.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/dc_test_sequentialization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/dc_test_sequentialization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/dc_test_sequentialization.dir/rule
@@ -1640,7 +1640,7 @@ tests/CMakeFiles/hdfs_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/hdfs_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/hdfs_test.dir/build.make tests/CMakeFiles/hdfs_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/hdfs_test.dir/build.make tests/CMakeFiles/hdfs_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=46 "Built target hdfs_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=45 "Built target hdfs_test"
 .PHONY : tests/CMakeFiles/hdfs_test.dir/all
 
 # Include target in all.
@@ -1650,7 +1650,7 @@ all: tests/CMakeFiles/hdfs_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/hdfs_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/hdfs_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/hdfs_test.dir/rule
@@ -1692,7 +1692,7 @@ all: tests/CMakeFiles/async_consistent_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/async_consistent_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/async_consistent_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/async_consistent_test.dir/rule
@@ -1724,7 +1724,7 @@ tests/CMakeFiles/test_parsers.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/test_parsers.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/test_parsers.dir/build.make tests/CMakeFiles/test_parsers.dir/depend
 	$(MAKE) -f tests/CMakeFiles/test_parsers.dir/build.make tests/CMakeFiles/test_parsers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=92 "Built target test_parsers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_parsers"
 .PHONY : tests/CMakeFiles/test_parsers.dir/all
 
 # Include target in all.
@@ -1734,7 +1734,7 @@ all: tests/CMakeFiles/test_parsers.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/test_parsers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_parsers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/test_parsers.dir/rule
@@ -1766,7 +1766,7 @@ tests/CMakeFiles/synchronous_engine_test.dir/all: CMakeFiles/zookeeper.dir/all
 tests/CMakeFiles/synchronous_engine_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f tests/CMakeFiles/synchronous_engine_test.dir/build.make tests/CMakeFiles/synchronous_engine_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/synchronous_engine_test.dir/build.make tests/CMakeFiles/synchronous_engine_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=87 "Built target synchronous_engine_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target synchronous_engine_test"
 .PHONY : tests/CMakeFiles/synchronous_engine_test.dir/all
 
 # Include target in all.
@@ -1776,7 +1776,7 @@ all: tests/CMakeFiles/synchronous_engine_test.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/synchronous_engine_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/synchronous_engine_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/synchronous_engine_test.dir/rule
@@ -1870,6 +1870,8 @@ apps/all: apps/cascades/all
 apps/all: apps/concomp/all
 apps/all: apps/example/all
 apps/all: apps/label_propagation/all
+apps/all: apps/mysssp/all
+apps/all: apps/widest_path/all
 
 .PHONY : apps/all
 
@@ -1878,6 +1880,8 @@ apps/clean: apps/cascades/clean
 apps/clean: apps/concomp/clean
 apps/clean: apps/example/clean
 apps/clean: apps/label_propagation/clean
+apps/clean: apps/mysssp/clean
+apps/clean: apps/widest_path/clean
 
 .PHONY : apps/clean
 
@@ -1886,6 +1890,8 @@ apps/preinstall: apps/cascades/preinstall
 apps/preinstall: apps/concomp/preinstall
 apps/preinstall: apps/example/preinstall
 apps/preinstall: apps/label_propagation/preinstall
+apps/preinstall: apps/mysssp/preinstall
+apps/preinstall: apps/widest_path/preinstall
 
 .PHONY : apps/preinstall
 
@@ -1944,7 +1950,7 @@ src/graphlab/CMakeFiles/graphlab.dir/all: CMakeFiles/libevent.dir/all
 src/graphlab/CMakeFiles/graphlab.dir/all: CMakeFiles/zookeeper.dir/all
 	$(MAKE) -f src/graphlab/CMakeFiles/graphlab.dir/build.make src/graphlab/CMakeFiles/graphlab.dir/depend
 	$(MAKE) -f src/graphlab/CMakeFiles/graphlab.dir/build.make src/graphlab/CMakeFiles/graphlab.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target graphlab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target graphlab"
 .PHONY : src/graphlab/CMakeFiles/graphlab.dir/all
 
 # Include target in all.
@@ -1954,7 +1960,7 @@ all: src/graphlab/CMakeFiles/graphlab.dir/all
 
 # Build rule for subdir invocation for target.
 src/graphlab/CMakeFiles/graphlab.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 src/graphlab/CMakeFiles/graphlab.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : src/graphlab/CMakeFiles/graphlab.dir/rule
@@ -2242,7 +2248,7 @@ demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/all: CMakeFiles/zookeeper.
 demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/build.make demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/depend
 	$(MAKE) -f demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/build.make demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=97 "Built target warp_engine_pagerank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=96 "Built target warp_engine_pagerank"
 .PHONY : demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/all
 
 # Include target in all.
@@ -2252,7 +2258,7 @@ all: demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/pagerank/CMakeFiles/warp_engine_pagerank.dir/rule
@@ -2284,7 +2290,7 @@ demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/all: CMakeFiles/zookeeper.
 demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/build.make demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/depend
 	$(MAKE) -f demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/build.make demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target warp_parfor_pagerank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=97 "Built target warp_parfor_pagerank"
 .PHONY : demoapps/pagerank/CMakeFiles/warp_parfor_pagerank.dir/all
 
 # Include target in all.
@@ -2336,7 +2342,7 @@ all: demoapps/pagerank/CMakeFiles/simple_pagerank.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/pagerank/CMakeFiles/simple_pagerank.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/pagerank/CMakeFiles/simple_pagerank.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/pagerank/CMakeFiles/simple_pagerank.dir/rule
@@ -2420,7 +2426,7 @@ all: demoapps/rpc/CMakeFiles/obj_fiber_future_test.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/obj_fiber_future_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/obj_fiber_future_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/obj_fiber_future_test.dir/rule
@@ -2452,7 +2458,7 @@ demoapps/rpc/CMakeFiles/fiber_future_test.dir/all: CMakeFiles/zookeeper.dir/all
 demoapps/rpc/CMakeFiles/fiber_future_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/fiber_future_test.dir/build.make demoapps/rpc/CMakeFiles/fiber_future_test.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/fiber_future_test.dir/build.make demoapps/rpc/CMakeFiles/fiber_future_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=25 "Built target fiber_future_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target fiber_future_test"
 .PHONY : demoapps/rpc/CMakeFiles/fiber_future_test.dir/all
 
 # Include target in all.
@@ -2462,7 +2468,7 @@ all: demoapps/rpc/CMakeFiles/fiber_future_test.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/fiber_future_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/fiber_future_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/fiber_future_test.dir/rule
@@ -2504,7 +2510,7 @@ all: demoapps/rpc/CMakeFiles/rpc_call_perf_test.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_call_perf_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_call_perf_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_call_perf_test.dir/rule
@@ -2546,7 +2552,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example1.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example1.dir/rule
@@ -2588,7 +2594,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example6.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example6.dir/rule
@@ -2630,7 +2636,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example2.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example2.dir/rule
@@ -2662,7 +2668,7 @@ demoapps/rpc/CMakeFiles/rpc_example4.dir/all: CMakeFiles/zookeeper.dir/all
 demoapps/rpc/CMakeFiles/rpc_example4.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example4.dir/build.make demoapps/rpc/CMakeFiles/rpc_example4.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example4.dir/build.make demoapps/rpc/CMakeFiles/rpc_example4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target rpc_example4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=71 "Built target rpc_example4"
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example4.dir/all
 
 # Include target in all.
@@ -2714,7 +2720,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example7.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example7.dir/rule
@@ -2746,7 +2752,7 @@ demoapps/rpc/CMakeFiles/rpc_example3.dir/all: CMakeFiles/zookeeper.dir/all
 demoapps/rpc/CMakeFiles/rpc_example3.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example3.dir/build.make demoapps/rpc/CMakeFiles/rpc_example3.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example3.dir/build.make demoapps/rpc/CMakeFiles/rpc_example3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=71 "Built target rpc_example3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target rpc_example3"
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example3.dir/all
 
 # Include target in all.
@@ -2756,7 +2762,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example3.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example3.dir/rule
@@ -2788,7 +2794,7 @@ demoapps/rpc/CMakeFiles/rpc_example9.dir/all: CMakeFiles/zookeeper.dir/all
 demoapps/rpc/CMakeFiles/rpc_example9.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example9.dir/build.make demoapps/rpc/CMakeFiles/rpc_example9.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example9.dir/build.make demoapps/rpc/CMakeFiles/rpc_example9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target rpc_example9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=74 "Built target rpc_example9"
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example9.dir/all
 
 # Include target in all.
@@ -2830,7 +2836,7 @@ demoapps/rpc/CMakeFiles/dht_performance_test.dir/all: CMakeFiles/zookeeper.dir/a
 demoapps/rpc/CMakeFiles/dht_performance_test.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/dht_performance_test.dir/build.make demoapps/rpc/CMakeFiles/dht_performance_test.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/dht_performance_test.dir/build.make demoapps/rpc/CMakeFiles/dht_performance_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target dht_performance_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=17 "Built target dht_performance_test"
 .PHONY : demoapps/rpc/CMakeFiles/dht_performance_test.dir/all
 
 # Include target in all.
@@ -2882,7 +2888,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example5.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example5.dir/rule
@@ -2914,7 +2920,7 @@ demoapps/rpc/CMakeFiles/rpc_example8.dir/all: CMakeFiles/zookeeper.dir/all
 demoapps/rpc/CMakeFiles/rpc_example8.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example8.dir/build.make demoapps/rpc/CMakeFiles/rpc_example8.dir/depend
 	$(MAKE) -f demoapps/rpc/CMakeFiles/rpc_example8.dir/build.make demoapps/rpc/CMakeFiles/rpc_example8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=74 "Built target rpc_example8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target rpc_example8"
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example8.dir/all
 
 # Include target in all.
@@ -2924,7 +2930,7 @@ all: demoapps/rpc/CMakeFiles/rpc_example8.dir/all
 
 # Build rule for subdir invocation for target.
 demoapps/rpc/CMakeFiles/rpc_example8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 demoapps/rpc/CMakeFiles/rpc_example8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : demoapps/rpc/CMakeFiles/rpc_example8.dir/rule
@@ -2980,7 +2986,7 @@ toolkits/clustering/CMakeFiles/spectral_clustering.dir/all: CMakeFiles/zookeeper
 toolkits/clustering/CMakeFiles/spectral_clustering.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/clustering/CMakeFiles/spectral_clustering.dir/build.make toolkits/clustering/CMakeFiles/spectral_clustering.dir/depend
 	$(MAKE) -f toolkits/clustering/CMakeFiles/spectral_clustering.dir/build.make toolkits/clustering/CMakeFiles/spectral_clustering.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target spectral_clustering"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=82 "Built target spectral_clustering"
 .PHONY : toolkits/clustering/CMakeFiles/spectral_clustering.dir/all
 
 # Include target in all.
@@ -3022,7 +3028,7 @@ toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/all: CMakeFiles/zookee
 toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/build.make toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/depend
 	$(MAKE) -f toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/build.make toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=29 "Built target graph_laplacian_for_sc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target graph_laplacian_for_sc"
 .PHONY : toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/all
 
 # Include target in all.
@@ -3032,7 +3038,7 @@ all: toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/clustering/CMakeFiles/graph_laplacian_for_sc.dir/rule
@@ -3074,7 +3080,7 @@ all: toolkits/clustering/CMakeFiles/generate_synthetic.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/clustering/CMakeFiles/generate_synthetic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/clustering/CMakeFiles/generate_synthetic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/clustering/CMakeFiles/generate_synthetic.dir/rule
@@ -3106,7 +3112,7 @@ toolkits/clustering/CMakeFiles/kmeans.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/clustering/CMakeFiles/kmeans.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/clustering/CMakeFiles/kmeans.dir/build.make toolkits/clustering/CMakeFiles/kmeans.dir/depend
 	$(MAKE) -f toolkits/clustering/CMakeFiles/kmeans.dir/build.make toolkits/clustering/CMakeFiles/kmeans.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target kmeans"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=48 "Built target kmeans"
 .PHONY : toolkits/clustering/CMakeFiles/kmeans.dir/all
 
 # Include target in all.
@@ -3195,7 +3201,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/als.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/als.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/als.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/als.dir/rule
@@ -3228,7 +3234,7 @@ toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/all: CMakeFiles/zooke
 toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/build.make toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/build.make toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=82 "Built target sparse_als"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target sparse_als"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/all
 
 # Include target in all.
@@ -3238,7 +3244,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/sparse_als.dir/rule
@@ -3271,7 +3277,7 @@ toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/all: CMa
 toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/build.make toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/build.make toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=60 "Built target make_synthetic_als_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=59 "Built target make_synthetic_als_data"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/all
 
 # Include target in all.
@@ -3281,7 +3287,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/make_synthetic_als_data.dir/rule
@@ -3314,7 +3320,7 @@ toolkits/collaborative_filtering/CMakeFiles/sgd.dir/all: CMakeFiles/zookeeper.di
 toolkits/collaborative_filtering/CMakeFiles/sgd.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/sgd.dir/build.make toolkits/collaborative_filtering/CMakeFiles/sgd.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/sgd.dir/build.make toolkits/collaborative_filtering/CMakeFiles/sgd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=77 "Built target sgd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target sgd"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/sgd.dir/all
 
 # Include target in all.
@@ -3324,7 +3330,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/sgd.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/sgd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/sgd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/sgd.dir/rule
@@ -3367,7 +3373,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/biassgd.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/biassgd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/biassgd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/biassgd.dir/rule
@@ -3400,7 +3406,7 @@ toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/all: CMakeFiles/zookeeper.
 toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/build.make toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/build.make toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target svdpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=86 "Built target svdpp"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/all
 
 # Include target in all.
@@ -3410,7 +3416,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/svdpp.dir/rule
@@ -3452,7 +3458,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/adpredictor.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/adpredictor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/adpredictor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/adpredictor.dir/rule
@@ -3485,7 +3491,7 @@ toolkits/collaborative_filtering/CMakeFiles/svd.dir/all: CMakeFiles/zookeeper.di
 toolkits/collaborative_filtering/CMakeFiles/svd.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/svd.dir/build.make toolkits/collaborative_filtering/CMakeFiles/svd.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/svd.dir/build.make toolkits/collaborative_filtering/CMakeFiles/svd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=86 "Built target svd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target svd"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/svd.dir/all
 
 # Include target in all.
@@ -3495,7 +3501,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/svd.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/svd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/svd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/svd.dir/rule
@@ -3528,7 +3534,7 @@ toolkits/collaborative_filtering/CMakeFiles/wals.dir/all: CMakeFiles/zookeeper.d
 toolkits/collaborative_filtering/CMakeFiles/wals.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/wals.dir/build.make toolkits/collaborative_filtering/CMakeFiles/wals.dir/depend
 	$(MAKE) -f toolkits/collaborative_filtering/CMakeFiles/wals.dir/build.make toolkits/collaborative_filtering/CMakeFiles/wals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=96 "Built target wals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target wals"
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/wals.dir/all
 
 # Include target in all.
@@ -3538,7 +3544,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/wals.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/wals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/wals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/wals.dir/rule
@@ -3581,7 +3587,7 @@ all: toolkits/collaborative_filtering/CMakeFiles/nmf.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/collaborative_filtering/CMakeFiles/nmf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/collaborative_filtering/CMakeFiles/nmf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/collaborative_filtering/CMakeFiles/nmf.dir/rule
@@ -3640,7 +3646,7 @@ toolkits/computer_vision/CMakeFiles/stitching.dir/all: CMakeFiles/zookeeper.dir/
 toolkits/computer_vision/CMakeFiles/stitching.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitching.dir/build.make toolkits/computer_vision/CMakeFiles/stitching.dir/depend
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitching.dir/build.make toolkits/computer_vision/CMakeFiles/stitching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target stitching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=84 "Built target stitching"
 .PHONY : toolkits/computer_vision/CMakeFiles/stitching.dir/all
 
 # Include target in all.
@@ -3684,7 +3690,7 @@ toolkits/computer_vision/CMakeFiles/stitch.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/computer_vision/CMakeFiles/stitch.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitch.dir/build.make toolkits/computer_vision/CMakeFiles/stitch.dir/depend
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitch.dir/build.make toolkits/computer_vision/CMakeFiles/stitch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target stitch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=83 "Built target stitch"
 .PHONY : toolkits/computer_vision/CMakeFiles/stitch.dir/all
 
 # Include target in all.
@@ -3694,7 +3700,7 @@ all: toolkits/computer_vision/CMakeFiles/stitch.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/computer_vision/CMakeFiles/stitch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/computer_vision/CMakeFiles/stitch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/computer_vision/CMakeFiles/stitch.dir/rule
@@ -3728,7 +3734,7 @@ toolkits/computer_vision/CMakeFiles/stitch_full.dir/all: CMakeFiles/zookeeper.di
 toolkits/computer_vision/CMakeFiles/stitch_full.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitch_full.dir/build.make toolkits/computer_vision/CMakeFiles/stitch_full.dir/depend
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/stitch_full.dir/build.make toolkits/computer_vision/CMakeFiles/stitch_full.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=84 "Built target stitch_full"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target stitch_full"
 .PHONY : toolkits/computer_vision/CMakeFiles/stitch_full.dir/all
 
 # Include target in all.
@@ -3738,7 +3744,7 @@ all: toolkits/computer_vision/CMakeFiles/stitch_full.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/computer_vision/CMakeFiles/stitch_full.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/computer_vision/CMakeFiles/stitch_full.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/computer_vision/CMakeFiles/stitch_full.dir/rule
@@ -3771,7 +3777,7 @@ toolkits/computer_vision/CMakeFiles/grabcut.dir/all: CMakeFiles/zookeeper.dir/al
 toolkits/computer_vision/CMakeFiles/grabcut.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/grabcut.dir/build.make toolkits/computer_vision/CMakeFiles/grabcut.dir/depend
 	$(MAKE) -f toolkits/computer_vision/CMakeFiles/grabcut.dir/build.make toolkits/computer_vision/CMakeFiles/grabcut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=28 "Built target grabcut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target grabcut"
 .PHONY : toolkits/computer_vision/CMakeFiles/grabcut.dir/all
 
 # Include target in all.
@@ -3781,7 +3787,7 @@ all: toolkits/computer_vision/CMakeFiles/grabcut.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/computer_vision/CMakeFiles/grabcut.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/computer_vision/CMakeFiles/grabcut.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/computer_vision/CMakeFiles/grabcut.dir/rule
@@ -3824,7 +3830,7 @@ all: toolkits/computer_vision/CMakeFiles/stitching_detailed.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/computer_vision/CMakeFiles/stitching_detailed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/computer_vision/CMakeFiles/stitching_detailed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/computer_vision/CMakeFiles/stitching_detailed.dir/rule
@@ -3898,7 +3904,7 @@ toolkits/graph_algorithms/CMakeFiles/djikstra.dir/all: CMakeFiles/zookeeper.dir/
 toolkits/graph_algorithms/CMakeFiles/djikstra.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_algorithms/CMakeFiles/djikstra.dir/build.make toolkits/graph_algorithms/CMakeFiles/djikstra.dir/depend
 	$(MAKE) -f toolkits/graph_algorithms/CMakeFiles/djikstra.dir/build.make toolkits/graph_algorithms/CMakeFiles/djikstra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target djikstra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=20 "Built target djikstra"
 .PHONY : toolkits/graph_algorithms/CMakeFiles/djikstra.dir/all
 
 # Include target in all.
@@ -3940,7 +3946,7 @@ toolkits/graph_algorithms/CMakeFiles/prestige.dir/all: CMakeFiles/zookeeper.dir/
 toolkits/graph_algorithms/CMakeFiles/prestige.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_algorithms/CMakeFiles/prestige.dir/build.make toolkits/graph_algorithms/CMakeFiles/prestige.dir/depend
 	$(MAKE) -f toolkits/graph_algorithms/CMakeFiles/prestige.dir/build.make toolkits/graph_algorithms/CMakeFiles/prestige.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target prestige"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=66 "Built target prestige"
 .PHONY : toolkits/graph_algorithms/CMakeFiles/prestige.dir/all
 
 # Include target in all.
@@ -3992,7 +3998,7 @@ all: toolkits/graph_algorithms/CMakeFiles/betweeness.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_algorithms/CMakeFiles/betweeness.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_algorithms/CMakeFiles/betweeness.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_algorithms/CMakeFiles/betweeness.dir/rule
@@ -4034,7 +4040,7 @@ all: toolkits/graph_algorithms/CMakeFiles/closeness.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_algorithms/CMakeFiles/closeness.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_algorithms/CMakeFiles/closeness.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_algorithms/CMakeFiles/closeness.dir/rule
@@ -4116,7 +4122,7 @@ toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/all: CMakeFiles/zookeepe
 toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target simple_coloring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=77 "Built target simple_coloring"
 .PHONY : toolkits/graph_analytics/CMakeFiles/simple_coloring.dir/all
 
 # Include target in all.
@@ -4158,7 +4164,7 @@ toolkits/graph_analytics/CMakeFiles/sssp.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/graph_analytics/CMakeFiles/sssp.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/sssp.dir/build.make toolkits/graph_analytics/CMakeFiles/sssp.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/sssp.dir/build.make toolkits/graph_analytics/CMakeFiles/sssp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=83 "Built target sssp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target sssp"
 .PHONY : toolkits/graph_analytics/CMakeFiles/sssp.dir/all
 
 # Include target in all.
@@ -4168,7 +4174,7 @@ all: toolkits/graph_analytics/CMakeFiles/sssp.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/sssp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/sssp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/sssp.dir/rule
@@ -4200,7 +4206,7 @@ toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/all: CM
 toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/build.make toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/build.make toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=79 "Built target simple_undirected_triangle_count"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target simple_undirected_triangle_count"
 .PHONY : toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/all
 
 # Include target in all.
@@ -4210,7 +4216,7 @@ all: toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/al
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/simple_undirected_triangle_count.dir/rule
@@ -4242,7 +4248,7 @@ toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/all: CMakeFiles/zookeepe
 toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/build.make toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/build.make toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target graph_laplacian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=28 "Built target graph_laplacian"
 .PHONY : toolkits/graph_analytics/CMakeFiles/graph_laplacian.dir/all
 
 # Include target in all.
@@ -4284,7 +4290,7 @@ toolkits/graph_analytics/CMakeFiles/kcore.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/graph_analytics/CMakeFiles/kcore.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/kcore.dir/build.make toolkits/graph_analytics/CMakeFiles/kcore.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/kcore.dir/build.make toolkits/graph_analytics/CMakeFiles/kcore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=48 "Built target kcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target kcore"
 .PHONY : toolkits/graph_analytics/CMakeFiles/kcore.dir/all
 
 # Include target in all.
@@ -4294,7 +4300,7 @@ all: toolkits/graph_analytics/CMakeFiles/kcore.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/kcore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/kcore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/kcore.dir/rule
@@ -4326,7 +4332,7 @@ toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/all: CMakeFi
 toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=75 "Built target saturation_ordered_coloring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target saturation_ordered_coloring"
 .PHONY : toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/all
 
 # Include target in all.
@@ -4336,7 +4342,7 @@ all: toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/saturation_ordered_coloring.dir/rule
@@ -4378,7 +4384,7 @@ all: toolkits/graph_analytics/CMakeFiles/directed_triangle_count.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/directed_triangle_count.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/directed_triangle_count.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/directed_triangle_count.dir/rule
@@ -4410,7 +4416,7 @@ toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/all: CMakeFiles/
 toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/build.make toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target degree_ordered_coloring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=15 "Built target degree_ordered_coloring"
 .PHONY : toolkits/graph_analytics/CMakeFiles/degree_ordered_coloring.dir/all
 
 # Include target in all.
@@ -4462,7 +4468,7 @@ all: toolkits/graph_analytics/CMakeFiles/approximate_diameter.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/approximate_diameter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/approximate_diameter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/approximate_diameter.dir/rule
@@ -4504,7 +4510,7 @@ all: toolkits/graph_analytics/CMakeFiles/pagerank.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/pagerank.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/pagerank.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/pagerank.dir/rule
@@ -4536,7 +4542,7 @@ toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/all: CMakeFile
 toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/build.make toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/build.make toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target undirected_triangle_count"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=94 "Built target undirected_triangle_count"
 .PHONY : toolkits/graph_analytics/CMakeFiles/undirected_triangle_count.dir/all
 
 # Include target in all.
@@ -4578,7 +4584,7 @@ toolkits/graph_analytics/CMakeFiles/connected_component.dir/all: CMakeFiles/zook
 toolkits/graph_analytics/CMakeFiles/connected_component.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/connected_component.dir/build.make toolkits/graph_analytics/CMakeFiles/connected_component.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/connected_component.dir/build.make toolkits/graph_analytics/CMakeFiles/connected_component.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target connected_component"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=10 "Built target connected_component"
 .PHONY : toolkits/graph_analytics/CMakeFiles/connected_component.dir/all
 
 # Include target in all.
@@ -4620,7 +4626,7 @@ toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/all: CMakeFil
 toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/build.make toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/build.make toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target eigen_vector_normalization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=23 "Built target eigen_vector_normalization"
 .PHONY : toolkits/graph_analytics/CMakeFiles/eigen_vector_normalization.dir/all
 
 # Include target in all.
@@ -4662,7 +4668,7 @@ toolkits/graph_analytics/CMakeFiles/format_convert.dir/all: CMakeFiles/zookeeper
 toolkits/graph_analytics/CMakeFiles/format_convert.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/format_convert.dir/build.make toolkits/graph_analytics/CMakeFiles/format_convert.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/format_convert.dir/build.make toolkits/graph_analytics/CMakeFiles/format_convert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target format_convert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=26 "Built target format_convert"
 .PHONY : toolkits/graph_analytics/CMakeFiles/format_convert.dir/all
 
 # Include target in all.
@@ -4714,7 +4720,7 @@ all: toolkits/graph_analytics/CMakeFiles/connected_component_stats.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/connected_component_stats.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/connected_component_stats.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/connected_component_stats.dir/rule
@@ -4746,7 +4752,7 @@ toolkits/graph_analytics/CMakeFiles/partitioning.dir/all: CMakeFiles/zookeeper.d
 toolkits/graph_analytics/CMakeFiles/partitioning.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/partitioning.dir/build.make toolkits/graph_analytics/CMakeFiles/partitioning.dir/depend
 	$(MAKE) -f toolkits/graph_analytics/CMakeFiles/partitioning.dir/build.make toolkits/graph_analytics/CMakeFiles/partitioning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=66 "Built target partitioning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target partitioning"
 .PHONY : toolkits/graph_analytics/CMakeFiles/partitioning.dir/all
 
 # Include target in all.
@@ -4756,7 +4762,7 @@ all: toolkits/graph_analytics/CMakeFiles/partitioning.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/partitioning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/partitioning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/partitioning.dir/rule
@@ -4799,7 +4805,7 @@ all: toolkits/graph_analytics/CMakeFiles/TSC.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graph_analytics/CMakeFiles/TSC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graph_analytics/CMakeFiles/TSC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graph_analytics/CMakeFiles/TSC.dir/rule
@@ -4862,7 +4868,7 @@ toolkits/graphical_models/CMakeFiles/dd.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/graphical_models/CMakeFiles/dd.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/dd.dir/build.make toolkits/graphical_models/CMakeFiles/dd.dir/depend
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/dd.dir/build.make toolkits/graphical_models/CMakeFiles/dd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=15 "Built target dd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target dd"
 .PHONY : toolkits/graphical_models/CMakeFiles/dd.dir/all
 
 # Include target in all.
@@ -4872,7 +4878,7 @@ all: toolkits/graphical_models/CMakeFiles/dd.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/CMakeFiles/dd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/CMakeFiles/dd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/CMakeFiles/dd.dir/rule
@@ -4905,7 +4911,7 @@ toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/all: CMakeFil
 toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/build.make toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/depend
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/build.make toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=50 "Built target lbp_structured_prediction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=49 "Built target lbp_structured_prediction"
 .PHONY : toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/all
 
 # Include target in all.
@@ -4915,7 +4921,7 @@ all: toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/CMakeFiles/lbp_structured_prediction.dir/rule
@@ -4958,7 +4964,7 @@ all: toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic.dir/rule
@@ -4991,7 +4997,7 @@ toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/all: CMakeFiles/zo
 toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/build.make toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/depend
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/build.make toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target synthetic_image_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=87 "Built target synthetic_image_data"
 .PHONY : toolkits/graphical_models/CMakeFiles/synthetic_image_data.dir/all
 
 # Include target in all.
@@ -5035,7 +5041,7 @@ toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/all: CMakeFiles/zookeeper.
 toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/build.make toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/depend
 	$(MAKE) -f toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/build.make toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=61 "Built target mplp_denoise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target mplp_denoise"
 .PHONY : toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/all
 
 # Include target in all.
@@ -5045,7 +5051,7 @@ all: toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/CMakeFiles/mplp_denoise.dir/rule
@@ -5088,7 +5094,7 @@ all: toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic2.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/CMakeFiles/profile_lbp_synthetic2.dir/rule
@@ -5197,7 +5203,7 @@ all: toolkits/graphical_models/factors/tests/denoise/CMakeFiles/denoise.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/factors/tests/denoise/CMakeFiles/denoise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/factors/tests/denoise/CMakeFiles/denoise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/factors/tests/denoise/CMakeFiles/denoise.dir/rule
@@ -5257,7 +5263,7 @@ all: toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeFiles/test_M
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeFiles/test_MAD_relation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeFiles/test_MAD_relation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeFiles/test_MAD_relation.dir/rule
@@ -5309,7 +5315,7 @@ toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_j
 toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/build.make toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/depend
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/build.make toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_cat_bool_joint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=89 "Built target test_cat_bool_joint"
 .PHONY : toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_cat_bool_joint.dir/all
 
 # Include target in all.
@@ -5351,7 +5357,7 @@ toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.d
 toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/build.make toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/depend
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/build.make toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=89 "Built target test_bool_var"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_bool_var"
 .PHONY : toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/all
 
 # Include target in all.
@@ -5361,7 +5367,7 @@ all: toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/factors/tests/test_bool_var/CMakeFiles/test_bool_var.dir/rule
@@ -5411,7 +5417,7 @@ toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_t
 toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/build.make toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/depend
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/build.make toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=90 "Built target test_dense_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_dense_table"
 .PHONY : toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/all
 
 # Include target in all.
@@ -5421,7 +5427,7 @@ all: toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_de
 
 # Build rule for subdir invocation for target.
 toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/graphical_models/factors/tests/test_dense_table/CMakeFiles/test_dense_table.dir/rule
@@ -5473,7 +5479,7 @@ toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_re
 toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/build.make toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/depend
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/build.make toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_neg_relation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=91 "Built target test_neg_relation"
 .PHONY : toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_neg_relation.dir/all
 
 # Include target in all.
@@ -5515,7 +5521,7 @@ toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse
 toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/build.make toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/depend
 	$(MAKE) -f toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/build.make toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target test_sparse_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=92 "Built target test_sparse_table"
 .PHONY : toolkits/graphical_models/factors/tests/test_sparse_table/CMakeFiles/test_sparse_table.dir/all
 
 # Include target in all.
@@ -5576,7 +5582,7 @@ toolkits/linear_solvers/CMakeFiles/jacobi.dir/all: CMakeFiles/zookeeper.dir/all
 toolkits/linear_solvers/CMakeFiles/jacobi.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/linear_solvers/CMakeFiles/jacobi.dir/build.make toolkits/linear_solvers/CMakeFiles/jacobi.dir/depend
 	$(MAKE) -f toolkits/linear_solvers/CMakeFiles/jacobi.dir/build.make toolkits/linear_solvers/CMakeFiles/jacobi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target jacobi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=47 "Built target jacobi"
 .PHONY : toolkits/linear_solvers/CMakeFiles/jacobi.dir/all
 
 # Include target in all.
@@ -5586,7 +5592,7 @@ all: toolkits/linear_solvers/CMakeFiles/jacobi.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/linear_solvers/CMakeFiles/jacobi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/linear_solvers/CMakeFiles/jacobi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/linear_solvers/CMakeFiles/jacobi.dir/rule
@@ -5650,7 +5656,7 @@ all: toolkits/topic_modeling/CMakeFiles/cgs_lda_mimno_experimental.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/topic_modeling/CMakeFiles/cgs_lda_mimno_experimental.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/topic_modeling/CMakeFiles/cgs_lda_mimno_experimental.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/topic_modeling/CMakeFiles/cgs_lda_mimno_experimental.dir/rule
@@ -5692,7 +5698,7 @@ all: toolkits/topic_modeling/CMakeFiles/cgs_lda.dir/all
 
 # Build rule for subdir invocation for target.
 toolkits/topic_modeling/CMakeFiles/cgs_lda.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 toolkits/topic_modeling/CMakeFiles/cgs_lda.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : toolkits/topic_modeling/CMakeFiles/cgs_lda.dir/rule
@@ -5724,7 +5730,7 @@ toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/all: CMakeFiles/zookee
 toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/build.make toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/depend
 	$(MAKE) -f toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/build.make toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target lda_sequential_cgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=50 "Built target lda_sequential_cgs"
 .PHONY : toolkits/topic_modeling/CMakeFiles/lda_sequential_cgs.dir/all
 
 # Include target in all.
@@ -5784,7 +5790,7 @@ apps/cascades/CMakeFiles/cascades.dir/all: CMakeFiles/zookeeper.dir/all
 apps/cascades/CMakeFiles/cascades.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f apps/cascades/CMakeFiles/cascades.dir/build.make apps/cascades/CMakeFiles/cascades.dir/depend
 	$(MAKE) -f apps/cascades/CMakeFiles/cascades.dir/build.make apps/cascades/CMakeFiles/cascades.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target cascades"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=7 "Built target cascades"
 .PHONY : apps/cascades/CMakeFiles/cascades.dir/all
 
 # Include target in all.
@@ -5844,7 +5850,7 @@ apps/concomp/CMakeFiles/concomp.dir/all: CMakeFiles/zookeeper.dir/all
 apps/concomp/CMakeFiles/concomp.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f apps/concomp/CMakeFiles/concomp.dir/build.make apps/concomp/CMakeFiles/concomp.dir/depend
 	$(MAKE) -f apps/concomp/CMakeFiles/concomp.dir/build.make apps/concomp/CMakeFiles/concomp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=10 "Built target concomp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target concomp"
 .PHONY : apps/concomp/CMakeFiles/concomp.dir/all
 
 # Include target in all.
@@ -5854,7 +5860,7 @@ all: apps/concomp/CMakeFiles/concomp.dir/all
 
 # Build rule for subdir invocation for target.
 apps/concomp/CMakeFiles/concomp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 apps/concomp/CMakeFiles/concomp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : apps/concomp/CMakeFiles/concomp.dir/rule
@@ -5904,7 +5910,7 @@ apps/example/CMakeFiles/hello_world.dir/all: CMakeFiles/zookeeper.dir/all
 apps/example/CMakeFiles/hello_world.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f apps/example/CMakeFiles/hello_world.dir/build.make apps/example/CMakeFiles/hello_world.dir/depend
 	$(MAKE) -f apps/example/CMakeFiles/hello_world.dir/build.make apps/example/CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=46 "Built target hello_world"
 .PHONY : apps/example/CMakeFiles/hello_world.dir/all
 
 # Include target in all.
@@ -5964,7 +5970,7 @@ apps/label_propagation/CMakeFiles/label_propagation.dir/all: CMakeFiles/zookeepe
 apps/label_propagation/CMakeFiles/label_propagation.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
 	$(MAKE) -f apps/label_propagation/CMakeFiles/label_propagation.dir/build.make apps/label_propagation/CMakeFiles/label_propagation.dir/depend
 	$(MAKE) -f apps/label_propagation/CMakeFiles/label_propagation.dir/build.make apps/label_propagation/CMakeFiles/label_propagation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=49 "Built target label_propagation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target label_propagation"
 .PHONY : apps/label_propagation/CMakeFiles/label_propagation.dir/all
 
 # Include target in all.
@@ -5974,7 +5980,7 @@ all: apps/label_propagation/CMakeFiles/label_propagation.dir/all
 
 # Build rule for subdir invocation for target.
 apps/label_propagation/CMakeFiles/label_propagation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 apps/label_propagation/CMakeFiles/label_propagation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
 .PHONY : apps/label_propagation/CMakeFiles/label_propagation.dir/rule
@@ -5991,6 +5997,126 @@ apps/label_propagation/CMakeFiles/label_propagation.dir/clean:
 
 # clean rule for target.
 clean: apps/label_propagation/CMakeFiles/label_propagation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory apps/mysssp
+
+# Convenience name for "all" pass in the directory.
+apps/mysssp/all: apps/mysssp/CMakeFiles/mysssp.dir/all
+
+.PHONY : apps/mysssp/all
+
+# Convenience name for "clean" pass in the directory.
+apps/mysssp/clean: apps/mysssp/CMakeFiles/mysssp.dir/clean
+
+.PHONY : apps/mysssp/clean
+
+# Convenience name for "preinstall" pass in the directory.
+apps/mysssp/preinstall:
+
+.PHONY : apps/mysssp/preinstall
+
+#=============================================================================
+# Target rules for target apps/mysssp/CMakeFiles/mysssp.dir
+
+# All Build rule for target.
+apps/mysssp/CMakeFiles/mysssp.dir/all: CMakeFiles/hadoop.dir/all
+apps/mysssp/CMakeFiles/mysssp.dir/all: CMakeFiles/boost.dir/all
+apps/mysssp/CMakeFiles/mysssp.dir/all: CMakeFiles/libtcmalloc.dir/all
+apps/mysssp/CMakeFiles/mysssp.dir/all: CMakeFiles/libevent.dir/all
+apps/mysssp/CMakeFiles/mysssp.dir/all: CMakeFiles/zookeeper.dir/all
+apps/mysssp/CMakeFiles/mysssp.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
+	$(MAKE) -f apps/mysssp/CMakeFiles/mysssp.dir/build.make apps/mysssp/CMakeFiles/mysssp.dir/depend
+	$(MAKE) -f apps/mysssp/CMakeFiles/mysssp.dir/build.make apps/mysssp/CMakeFiles/mysssp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num=61 "Built target mysssp"
+.PHONY : apps/mysssp/CMakeFiles/mysssp.dir/all
+
+# Include target in all.
+all: apps/mysssp/CMakeFiles/mysssp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+apps/mysssp/CMakeFiles/mysssp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 29
+	$(MAKE) -f CMakeFiles/Makefile2 apps/mysssp/CMakeFiles/mysssp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
+.PHONY : apps/mysssp/CMakeFiles/mysssp.dir/rule
+
+# Convenience name for target.
+mysssp: apps/mysssp/CMakeFiles/mysssp.dir/rule
+
+.PHONY : mysssp
+
+# clean rule for target.
+apps/mysssp/CMakeFiles/mysssp.dir/clean:
+	$(MAKE) -f apps/mysssp/CMakeFiles/mysssp.dir/build.make apps/mysssp/CMakeFiles/mysssp.dir/clean
+.PHONY : apps/mysssp/CMakeFiles/mysssp.dir/clean
+
+# clean rule for target.
+clean: apps/mysssp/CMakeFiles/mysssp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory apps/widest_path
+
+# Convenience name for "all" pass in the directory.
+apps/widest_path/all: apps/widest_path/CMakeFiles/widest_path.dir/all
+
+.PHONY : apps/widest_path/all
+
+# Convenience name for "clean" pass in the directory.
+apps/widest_path/clean: apps/widest_path/CMakeFiles/widest_path.dir/clean
+
+.PHONY : apps/widest_path/clean
+
+# Convenience name for "preinstall" pass in the directory.
+apps/widest_path/preinstall:
+
+.PHONY : apps/widest_path/preinstall
+
+#=============================================================================
+# Target rules for target apps/widest_path/CMakeFiles/widest_path.dir
+
+# All Build rule for target.
+apps/widest_path/CMakeFiles/widest_path.dir/all: CMakeFiles/hadoop.dir/all
+apps/widest_path/CMakeFiles/widest_path.dir/all: CMakeFiles/boost.dir/all
+apps/widest_path/CMakeFiles/widest_path.dir/all: CMakeFiles/libtcmalloc.dir/all
+apps/widest_path/CMakeFiles/widest_path.dir/all: CMakeFiles/libevent.dir/all
+apps/widest_path/CMakeFiles/widest_path.dir/all: CMakeFiles/zookeeper.dir/all
+apps/widest_path/CMakeFiles/widest_path.dir/all: src/graphlab/CMakeFiles/graphlab.dir/all
+	$(MAKE) -f apps/widest_path/CMakeFiles/widest_path.dir/build.make apps/widest_path/CMakeFiles/widest_path.dir/depend
+	$(MAKE) -f apps/widest_path/CMakeFiles/widest_path.dir/build.make apps/widest_path/CMakeFiles/widest_path.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/PowerGraph/debug/CMakeFiles --progress-num= "Built target widest_path"
+.PHONY : apps/widest_path/CMakeFiles/widest_path.dir/all
+
+# Include target in all.
+all: apps/widest_path/CMakeFiles/widest_path.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+apps/widest_path/CMakeFiles/widest_path.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 28
+	$(MAKE) -f CMakeFiles/Makefile2 apps/widest_path/CMakeFiles/widest_path.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/PowerGraph/debug/CMakeFiles 0
+.PHONY : apps/widest_path/CMakeFiles/widest_path.dir/rule
+
+# Convenience name for target.
+widest_path: apps/widest_path/CMakeFiles/widest_path.dir/rule
+
+.PHONY : widest_path
+
+# clean rule for target.
+apps/widest_path/CMakeFiles/widest_path.dir/clean:
+	$(MAKE) -f apps/widest_path/CMakeFiles/widest_path.dir/build.make apps/widest_path/CMakeFiles/widest_path.dir/clean
+.PHONY : apps/widest_path/CMakeFiles/widest_path.dir/clean
+
+# clean rule for target.
+clean: apps/widest_path/CMakeFiles/widest_path.dir/clean
 
 .PHONY : clean
 

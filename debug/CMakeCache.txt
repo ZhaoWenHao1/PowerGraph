@@ -398,10 +398,22 @@ label_propagation_BINARY_DIR:STATIC=/root/PowerGraph/debug/apps/label_propagatio
 label_propagation_SOURCE_DIR:STATIC=/root/PowerGraph/apps/label_propagation
 
 //Value Computed by CMake
+mysssp_BINARY_DIR:STATIC=/root/PowerGraph/debug/apps/mysssp
+
+//Value Computed by CMake
+mysssp_SOURCE_DIR:STATIC=/root/PowerGraph/apps/mysssp
+
+//Value Computed by CMake
 tests_BINARY_DIR:STATIC=/root/PowerGraph/debug/tests/data
 
 //Value Computed by CMake
 tests_SOURCE_DIR:STATIC=/root/PowerGraph/tests/data
+
+//Value Computed by CMake
+widest_path_BINARY_DIR:STATIC=/root/PowerGraph/debug/apps/widest_path
+
+//Value Computed by CMake
+widest_path_SOURCE_DIR:STATIC=/root/PowerGraph/apps/widest_path
 
 
 ########################
@@ -506,7 +518,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=42
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=44
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

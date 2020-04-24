@@ -13,6 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../apps/concomp/CMakeLists.txt"
   "../apps/example/CMakeLists.txt"
   "../apps/label_propagation/CMakeLists.txt"
+  "../apps/mysssp/CMakeLists.txt"
+  "../apps/widest_path/CMakeLists.txt"
   "../cmake/FindAnt.cmake"
   "CMakeFiles/3.13.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.0-rc1/CMakeCXXCompiler.cmake"
@@ -247,6 +249,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "apps/concomp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/label_propagation/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "apps/mysssp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "apps/widest_path/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -369,4 +373,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "apps/concomp/CMakeFiles/concomp.dir/DependInfo.cmake"
   "apps/example/CMakeFiles/hello_world.dir/DependInfo.cmake"
   "apps/label_propagation/CMakeFiles/label_propagation.dir/DependInfo.cmake"
+  "apps/mysssp/CMakeFiles/mysssp.dir/DependInfo.cmake"
+  "apps/widest_path/CMakeFiles/widest_path.dir/DependInfo.cmake"
   )
