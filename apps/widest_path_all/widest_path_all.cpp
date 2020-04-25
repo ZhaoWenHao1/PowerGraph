@@ -77,7 +77,7 @@ get_other_vertex(const graph_type::edge_type& edge,
  * \brief Use directed or undireced edges.
  * 
  */
-bool DIRECTED_widestpathst = false; // 边是否有向，默认为无向，即图为无向图
+bool DIRECTED_widestpathall = false; // 边是否有向，默认为无向，即图为无向图
 
 /**
  * sources 中添加的边是否为源点，
@@ -136,7 +136,7 @@ bool line_parser(graph_type& graph, const std::string& filename, const std::stri
  * \brief The single source shortest path vertex program.
  * 单源最短路径的顶点程序，继承graphlab::ivertex_program和graphlab::IS_POD_TYPE
  */
-class widestpathst :
+class widestpathall :
   public graphlab::ivertex_program<graph_type, 
                                    graphlab::empty,
                                    widest_path_type>,
@@ -152,7 +152,7 @@ public:
   } 
 
   /**
-   * \brief We use the messaging model to compute the widestpathst update
+   * \brief We use the messaging model to compute the widestpathall update
    */
   edge_dir_type gather_edges(icontext_type& context, 
                              const vertex_type& vertex) const { 
@@ -183,15 +183,15 @@ public:
   }
 
   /**
-   * \brief Determine if widestpathst should run on all edges or just in edges
+   * \brief Determine if widestpathall should run on all edges or just in edges
    */
   edge_dir_type scatter_edges(icontext_type& context, 
                              const vertex_type& vertex) const {
     if(changed)
-      return DIRECTED_widestpathst? (ISSource ?  graphlab::OUT_EDGES : graphlab::IN_EDGES) : graphlab::ALL_EDGES;
+      return DIRECTED_widestpathall? (ISSource ?  graphlab::OUT_EDGES : graphlab::IN_EDGES) : graphlab::ALL_EDGES;
     else return graphlab::NO_EDGES;
     /*if(changed){
-      if(DIRECTED_widestpathst){
+      if(DIRECTED_widestpathall){
         if(ISSource)
           return graphlab::IN_EDGES; // 每个节点node根据自己的入度边计算，因为是计算source到node的最宽路径
         else
@@ -259,6 +259,47 @@ max_deg_vertex_reducer find_max_deg_vertex(const graph_type::vertex_type vtx) {
   return red;
 }
 
+std::string ltos(long l)
+{
+    std::ostringstream os;
+    os<<l;
+    std::string result;
+    std::istringstream is(os.str());
+    is >> result;
+    return result;
+ 
+}
+double GetCurrentTimeSec() {    //获取当前系统时间，单位秒（s）
+        struct timeval tv{};
+        gettimeofday(&tv, NULL);
+        return tv.tv_sec + tv.tv_usec * 1e-6;
+}
+std::vector<graphlab::vertex_id_type> GetVid(std::string graph_path){
+    std::vector<graphlab::vertex_id_type> vec; 
+    std::string s;
+    std::ifstream ifs(graph_path.c_str());
+    if(!ifs.is_open()){
+        std::cout << "file error" << std::endl;
+        return vec;
+    }
+    graphlab::vertex_id_type vid;
+    char * cs;
+    while(getline(ifs,s)){
+        cs = (char *)s.c_str();
+        sscanf(cs,"%ld",&vid);
+        vec.push_back(vid);
+    }
+    return vec;
+}
+bool RunWidestPath(graphlab::distributed_control dc, graphlab::command_line_options clopts,
+                    std::string graph_dir,std::string exec_type,int file_num, 
+                    graphlab::vertex_id_type source,std::string saveprefix){
+          // Build the graph ----------------------------------------------------------
+  
+  return true;
+}
+
+
 int main(int argc, char** argv) {
   // Initialize control plain using mpi
   graphlab::mpi_tools::init(argc, argv);
@@ -288,11 +329,11 @@ int main(int argc, char** argv) {
 
   clopts.add_positional("source");
 
-  clopts.attach_option("directed", DIRECTED_widestpathst,
+  clopts.attach_option("directed", DIRECTED_widestpathall,
                        "Treat edges as directed.");
 
-  clopts.attach_option("ISSource", ISSource,
-                       "Treat source as source.");
+  /* clopts.attach_option("ISSource", ISSource,
+                       "Treat source as source."); */
 
   clopts.attach_option("engine", exec_type, 
                        "The engine type synchronous or asynchronous");
@@ -310,70 +351,106 @@ int main(int argc, char** argv) {
     dc.cout() << "Error in parsing command line arguments." << std::endl;
     return EXIT_FAILURE;
   }
+  std::vector<graphlab::vertex_id_type> vec_vid = GetVid(graph_dir);
+  std::string tmps;
+  for(int i = 0;i < vec_vid.size();i++){
+    std::cout << vec_vid[i] << '\t';
+    tmps = ltos(vec_vid[i]);
 
-
-  // Build the graph ----------------------------------------------------------
-  graph_type graph(dc, clopts);
-  if(powerlaw > 0) { // make a synthetic graph
-    dc.cout() << "Loading synthetic Powerlaw graph." << std::endl;
-    graph.load_synthetic_powerlaw(powerlaw, false, 2, 100000000);
-  } else if (graph_dir.length() > 0) { // Load the graph from a file
-    dc.cout() << "Loading graph in line parser "<< format << std::endl;
-    graph.load(graph_dir, line_parser);
-  } else {
-    dc.cout() << "graph or powerlaw option must be specified" << std::endl;
-    clopts.print_description();
-    return EXIT_FAILURE;
-  }
-  // must call finalize before querying the graph
-  graph.finalize();
-  dc.cout() << "#vertices:  " << graph.num_vertices() << std::endl
-            << "#edges:     " << graph.num_edges() << std::endl;
-
-
-
-  if(sources.empty()) {
-    if (max_degree_source == false) {
-      dc.cout()
-        << "No source vertex provided. Adding vertex 1 as source" 
-        << std::endl;
-      sources.push_back(1);
+    ISSource = true;
+    std::string saveprefix_ = saveprefix + "_Sour_" + tmps;
+    // RunWidestPath(dc, clopts, graph_dir,exec_type, file_num, vec_vid[i], saveprefix_);
+    graph_type graph(dc, clopts);
+    double time_load_graph = -GetCurrentTimeSec();
+    if (graph_dir.length() > 0){
+      dc.cout() << "Loading graph in line parser " << std::endl;
+      graph.load(graph_dir, line_parser);
     }
-  }
-
-  if (max_degree_source) {
-    max_deg_vertex_reducer v = graph.map_reduce_vertices<max_deg_vertex_reducer>(find_max_deg_vertex);
-    dc.cout()
-      << "No source vertex provided.  Using highest degree vertex " << v.vid << " as source."
-      << std::endl;
-    sources.push_back(v.vid);
-  }
-
-
-
-  // Running The Engine -------------------------------------------------------
-  graphlab::omni_engine<widestpathst> engine(dc, graph, exec_type, clopts);
-
-
-  
-  // Signal all the vertices in the source set
-  for(size_t i = 0; i < sources.size(); ++i) {
-    engine.signal(sources[i], widest_path_type(std::numeric_limits<distance_type>::max()));
-  }
-
-  engine.start();
-  const float runtime = engine.elapsed_seconds();
-  dc.cout() << "Finished Running engine in " << runtime
-            << " seconds." << std::endl;
+    else{
+      dc.cout() << "graph file must be specified" << std::endl;
+      clopts.print_description();
+      return EXIT_FAILURE;
+    }
+    
+    time_load_graph += GetCurrentTimeSec();
+    dc.cout() << "time_load_graph: " << time_load_graph << std::endl;
+    /*GRAPH_TYPE GRAPH_IT(GRAPH);
+    GRAPH.COMPLETE_SET();*/
+    // must call finalize before querying the graph
+    graph.finalize();
+    dc.cout() << "#vertices:  " << graph.num_vertices() << std::endl
+              << "#edges:     " << graph.num_edges() << std::endl;
 
 
-  // Save the final graph -----------------------------------------------------
-  if (saveprefix != "") {
-    graph.save(saveprefix, widest_path_writer(),
-               false,    // do not gzip
-               true,     // save vertices
-               false,
-               file_num);   // do not save edges
+    // Running The Engine -------------------------------------------------------
+    graphlab::omni_engine<widestpathall> engine(dc, graph, exec_type, clopts);
+
+    engine.signal(vec_vid[i], widest_path_type(std::numeric_limits<distance_type>::max()));
+
+
+    engine.start();
+    const float runtime = engine.elapsed_seconds();
+    dc.cout() << "Finished Running engine in " << runtime
+              << " seconds." << std::endl;
+
+
+    // Save the final graph -----------------------------------------------------
+    if (saveprefix_ != "") {
+      graph.save(saveprefix_, widest_path_writer(),
+                false,    // do not gzip
+                true,     // save vertices
+                false,
+                file_num);   // do not save edges
+    }
+    graph.clear();
+
+
+    ISSource = false;
+    saveprefix_ = saveprefix + "_Target_" + tmps;
+    // RunWidestPath(dc, clopts, graph_dir,exec_type, file_num, vec_vid[i], saveprefix_);
+    graph_type graph2(dc, clopts);
+    double time_load_graph2 = -GetCurrentTimeSec();
+    if (graph_dir.length() > 0){
+      dc.cout() << "Loading graph in line parser " << std::endl;
+      graph2.load(graph_dir, line_parser);
+    }
+    else{
+      dc.cout() << "graph file must be specified" << std::endl;
+      clopts.print_description();
+      return EXIT_FAILURE;
+    }
+    
+    time_load_graph2 += GetCurrentTimeSec();
+    dc.cout() << "time_load_graph: " << time_load_graph2 << std::endl;
+    /*GRAPH_TYPE GRAPH_IT(GRAPH);
+    GRAPH.COMPLETE_SET();*/
+    // must call finalize before querying the graph
+    graph2.finalize();
+    dc.cout() << "#vertices:  " << graph2.num_vertices() << std::endl
+              << "#edges:     " << graph2.num_edges() << std::endl;
+
+
+    // Running The Engine -------------------------------------------------------
+    graphlab::omni_engine<widestpathall> engine2(dc, graph2, exec_type, clopts);
+
+    engine2.signal(vec_vid[i], widest_path_type(std::numeric_limits<distance_type>::max()));
+
+
+    engine2.start();
+    const float runtime2 = engine2.elapsed_seconds();
+    dc.cout() << "Finished Running engine2 in " << runtime2
+              << " seconds." << std::endl;
+
+
+    // Save the final graph -----------------------------------------------------
+    if (saveprefix_ != "") {
+      graph2.save(saveprefix_, widest_path_writer(),
+                false,    // do not gzip
+                true,     // save vertices
+                false,
+                file_num);   // do not save edges
+    }
+    graph2.clear();
   }
 
   // Tear-down communication layer and quit -----------------------------------
@@ -382,6 +459,6 @@ int main(int argc, char** argv) {
 } // End of main
 
 
-// ./widestpathst --graph graph.txt --source 1 --directed true --ISSource true --saveprefix widestpathstRes --savefilenum 1
+// ./widest_path_all --graph graph.txt --source 1 --directed true --ISSource true --saveprefix widestpathallRes --savefilenum 1
 // note: --directed true 表示有向图 false表示无向图  默认为无向图
 // --ISSource true表示以source[i]为源点，false表示以source[i]为终点，一个正向，一个反向
