@@ -1,0 +1,2 @@
+project(widest_path_st)
+add_graphlab_executable(widest_path_st widest_path_st.cpp)

@@ -77,7 +77,7 @@ get_other_vertex(const graph_type::edge_type& edge,
  * \brief Use directed or undireced edges.
  * 
  */
-bool DIRECTED_widestpath = false; // 边是否有向，默认为无向，即图为无向图
+bool DIRECTED_widestpathst = false; // 边是否有向，默认为无向，即图为无向图
 
 
 /**
@@ -132,7 +132,7 @@ bool line_parser(graph_type& graph, const std::string& filename, const std::stri
  * \brief The single source shortest path vertex program.
  * 单源最短路径的顶点程序，继承graphlab::ivertex_program和graphlab::IS_POD_TYPE
  */
-class widestpath :
+class widestpathst :
   public graphlab::ivertex_program<graph_type, 
                                    graphlab::empty,
                                    widest_path_type>,
@@ -148,7 +148,7 @@ public:
   } 
 
   /**
-   * \brief We use the messaging model to compute the widestpath update
+   * \brief We use the messaging model to compute the widestpathst update
    */
   edge_dir_type gather_edges(icontext_type& context, 
                              const vertex_type& vertex) const { 
@@ -179,12 +179,12 @@ public:
   }
 
   /**
-   * \brief Determine if widestpath should run on all edges or just in edges
+   * \brief Determine if widestpathst should run on all edges or just in edges
    */
   edge_dir_type scatter_edges(icontext_type& context, 
                              const vertex_type& vertex) const {
     if(changed)
-      return DIRECTED_widestpath? graphlab::OUT_EDGES : graphlab::ALL_EDGES; 
+      return DIRECTED_widestpathst? graphlab::OUT_EDGES : graphlab::IN_EDGES; 
     else return graphlab::NO_EDGES;
   }; // end of scatter_edges
 
@@ -271,7 +271,7 @@ int main(int argc, char** argv) {
 
   clopts.add_positional("source");
 
-  clopts.attach_option("directed", DIRECTED_widestpath,
+  clopts.attach_option("directed", DIRECTED_widestpathst,
                        "Treat edges as directed.");
 
   clopts.attach_option("engine", exec_type, 
@@ -332,7 +332,7 @@ int main(int argc, char** argv) {
 
 
   // Running The Engine -------------------------------------------------------
-  graphlab::omni_engine<widestpath> engine(dc, graph, exec_type, clopts);
+  graphlab::omni_engine<widestpathst> engine(dc, graph, exec_type, clopts);
 
 
   
@@ -362,4 +362,4 @@ int main(int argc, char** argv) {
 } // End of main
 
 
-// ./widestpath --graph graph.txt --source 1 --directed true --saveprefix widestpathRes --savefilenum 1
+// ./widestpathst --graph graph.txt --source 1 --directed true --saveprefix widestpathstRes --savefilenum 1

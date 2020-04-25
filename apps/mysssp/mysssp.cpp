@@ -315,7 +315,7 @@ int main(int argc, char** argv) {
   if(sources.empty()) {
     if (max_degree_source == false) {
       dc.cout()
-        << "No source vertex provided. Adding vertex 0 as source" 
+        << "No source vertex provided. Adding vertex 1 as source" 
         << std::endl;
       sources.push_back(1);
     }
