@@ -130,20 +130,14 @@ bool line_parser(graph_type& graph, const std::string& filename, const std::stri
 } // end of adj parser
 
 // 分布式系统会有问题
-bool myLoader(graph_type& graph, std::vector<std::vector<std::pair<uint32_t , float > > > adj_out,
- std::vector<std::vector<std::pair<uint32_t , float > > > adj_in){
+bool myLoader(graph_type& graph, const std::vector<std::tuple<uint32_t ,uint32_t ,float > > &es){
    graphlab::vertex_id_type vid;
    graphlab::vertex_id_type other_vid;
    double edge_val=1.0;
-   for(size_t i = 0;i < adj_out.size();i++){
-     for(int j = 0;j < adj_out[i].size();j++){
-       if(i != adj_out[i][j].first) graph.add_edge(i, adj_out[i][j].first, edge_val);
-     }
-   }
-   for(size_t i = 0;i < adj_in.size();i++){
-     for(int j = 0;j < adj_in[i].size();j++){
-       if(i != adj_in[i][j].first) graph.add_edge(adj_in[i][j].first, i, edge_val);
-     }
+   for(size_t i = 0;i < es.size();i++){
+     uint32_t v = std::get<0>(es[i]), w = std::get<1>(es[i]);
+     float d = std::get<2>(es[i]);
+      graph.add_edge(v,w,d);
    }
    return true;
 
@@ -281,7 +275,109 @@ double GetCurrentTimeSec() {    //获取当前系统时间，单位秒（s）
         return tv.tv_sec + tv.tv_usec * 1e-6;
 }
 
+bool get_widest_path(uint32_t V, const std::vector<std::tuple<uint32_t ,uint32_t ,float > > &es, uint32_t sourceVid){
+   int argc = 1;
+   // char argt[30] =  "./widest_path";
+   char * argvr[] = {"./widest_path"};
+   char ** argv = (char **)argvr;
+   /* char ** argv = (char**) malloc(sizeof(char)*30);
+   **argv = '\0'; */
+  graphlab::mpi_tools::init(argc, argv);
+  std::cout << "yes" << std::endl;
+  graphlab::distributed_control dc;
+  global_logger().set_log_level(LOG_INFO);
 
+  // Parse command line options -----------------------------------------------
+  graphlab::command_line_options 
+    clopts("widest Path Algorithm.");
+  std::string graph_dir;
+  std::string format = "adj";
+  std::string exec_type = "synchronous";
+  size_t powerlaw = 0;
+  int file_num = 1;
+  std::vector<unsigned int> sources; // 源顶点vid 如果只有一个就是单源最短，如果有多个就是到多个源中的任一个最短
+  bool max_degree_source = false;
+  clopts.attach_option("graph", graph_dir,
+                       "The graph file.  If none is provided "
+                       "then a toy graph will be created");
+  clopts.add_positional("graph");
+  clopts.attach_option("format", format,
+                       "graph format");
+  clopts.attach_option("source", sources,
+                       "The source vertices");
+  clopts.attach_option("max_degree_source", max_degree_source,
+                       "Add the vertex with maximum degree as a source");
+
+  clopts.add_positional("source");
+
+  clopts.attach_option("directed", DIRECTED_widestpath,
+                       "Treat edges as directed.");
+
+  /* clopts.attach_option("ISSource", ISSource,
+                       "Treat source as source."); */
+
+  clopts.attach_option("engine", exec_type, 
+                       "The engine type synchronous or asynchronous");
+ 
+  
+  clopts.attach_option("powerlaw", powerlaw,
+                       "Generate a synthetic powerlaw out-degree graph. ");
+  std::string saveprefix;
+  clopts.attach_option("saveprefix", saveprefix,
+                       "If set, will save the resultant pagerank to a "
+                       "sequence of files with prefix saveprefix");
+  clopts.attach_option("savefilenum",file_num,"save file nums,define 4");
+
+  if(!clopts.parse(argc, argv)) {
+    dc.cout() << "Error in parsing command line arguments." << std::endl;
+    return EXIT_FAILURE;
+  }
+  ISSource = true;
+  std::string saveprefix_ = "/root/data/SourIdx";
+  graph_type graph(dc, clopts);
+  myLoader(graph,es);
+  graph.finalize();
+  graphlab::omni_engine<widestpath> engine(dc, graph, exec_type, clopts);
+
+  engine.signal(sourceVid, widest_path_type(std::numeric_limits<distance_type>::max()));
+  engine.start();
+  const float runtime = engine.elapsed_seconds();
+  // Save the final graph -----------------------------------------------------
+  if (saveprefix_ != "") {
+    graph.save(saveprefix_, widest_path_writer(),
+              false,    // do not gzip
+              true,     // save vertices
+              false,
+              file_num);   // do not save edges
+  }
+  graph.clear();
+
+  ISSource = false;
+  saveprefix_ = "/root/data/TargetIdx";
+  graph_type graph2(dc, clopts);
+  myLoader(graph2,es);
+  graph2.finalize();
+  graphlab::omni_engine<widestpath> engine2(dc, graph2, exec_type, clopts);
+  engine2.signal(sourceVid, widest_path_type(std::numeric_limits<distance_type>::max()));
+  engine2.start();
+  const float runtime2 = engine2.elapsed_seconds();
+  // Save the final graph -----------------------------------------------------
+  if (saveprefix_ != "") {
+    graph.save(saveprefix_, widest_path_writer(),
+              false,    // do not gzip
+              true,     // save vertices
+              false,
+              file_num);   // do not save edges
+  }
+  graph.clear();
+  float total_time = runtime+runtime2;
+  dc.cout() << std::endl << "total time: " << total_time << std::endl;
+  // Tear-down communication layer and quit -----------------------------------
+  graphlab::mpi_tools::finalize();
+  return true;
+
+ }
+/*
 int main(int argc, char** argv) {
   // Initialize control plain using mpi
   graphlab::mpi_tools::init(argc, argv);
@@ -406,6 +502,7 @@ int main(int argc, char** argv) {
   graphlab::mpi_tools::finalize();
   return EXIT_SUCCESS;
 } // End of main
+*/
 
 
 // ./widestpath --graph graph.txt --source 1 --directed true --saveprefix widestpathRes --savefilenum 1

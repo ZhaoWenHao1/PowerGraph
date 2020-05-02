@@ -308,7 +308,7 @@ int main(int argc, char** argv) {
 
   // Parse command line options -----------------------------------------------
   graphlab::command_line_options 
-    clopts("Single Source Shortest Path Algorithm.");
+    clopts("widest Path Algorithm.");
   std::string graph_dir;
   std::string format = "adj";
   std::string exec_type = "synchronous";
@@ -353,6 +353,7 @@ int main(int argc, char** argv) {
   }
   std::vector<graphlab::vertex_id_type> vec_vid = GetVid(graph_dir);
   std::string tmps;
+  double total_time = -GetCurrentTimeSec();
   for(int i = 0;i < vec_vid.size();i++){
     std::cout << vec_vid[i] << '\t';
     tmps = ltos(vec_vid[i]);
@@ -361,9 +362,9 @@ int main(int argc, char** argv) {
     std::string saveprefix_ = saveprefix + "_Sour_" + tmps;
     // RunWidestPath(dc, clopts, graph_dir,exec_type, file_num, vec_vid[i], saveprefix_);
     graph_type graph(dc, clopts);
-    double time_load_graph = -GetCurrentTimeSec();
+    /* double time_load_graph = -GetCurrentTimeSec(); */
     if (graph_dir.length() > 0){
-      dc.cout() << "Loading graph in line parser " << std::endl;
+      /* dc.cout() << "Loading graph in line parser " << std::endl; */
       graph.load(graph_dir, line_parser);
     }
     else{
@@ -372,14 +373,14 @@ int main(int argc, char** argv) {
       return EXIT_FAILURE;
     }
     
-    time_load_graph += GetCurrentTimeSec();
-    dc.cout() << "time_load_graph: " << time_load_graph << std::endl;
+    /* time_load_graph += GetCurrentTimeSec(); */
+    /* dc.cout() << "time_load_graph: " << time_load_graph << std::endl; */
     /*GRAPH_TYPE GRAPH_IT(GRAPH);
     GRAPH.COMPLETE_SET();*/
     // must call finalize before querying the graph
     graph.finalize();
-    dc.cout() << "#vertices:  " << graph.num_vertices() << std::endl
-              << "#edges:     " << graph.num_edges() << std::endl;
+    /* dc.cout() << "#vertices:  " << graph.num_vertices() << std::endl
+              << "#edges:     " << graph.num_edges() << std::endl; */
 
 
     // Running The Engine -------------------------------------------------------
@@ -390,12 +391,12 @@ int main(int argc, char** argv) {
 
     engine.start();
     const float runtime = engine.elapsed_seconds();
-    dc.cout() << "Finished Running engine in " << runtime
-              << " seconds." << std::endl;
+    /* dc.cout() << "Finished Running engine in " << runtime
+              << " seconds." << std::endl; */
 
 
     // Save the final graph -----------------------------------------------------
-    if (saveprefix_ != "") {
+    if (saveprefix != "") {
       graph.save(saveprefix_, widest_path_writer(),
                 false,    // do not gzip
                 true,     // save vertices
@@ -409,9 +410,9 @@ int main(int argc, char** argv) {
     saveprefix_ = saveprefix + "_Target_" + tmps;
     // RunWidestPath(dc, clopts, graph_dir,exec_type, file_num, vec_vid[i], saveprefix_);
     graph_type graph2(dc, clopts);
-    double time_load_graph2 = -GetCurrentTimeSec();
+    /* double time_load_graph2 = -GetCurrentTimeSec(); */
     if (graph_dir.length() > 0){
-      dc.cout() << "Loading graph in line parser " << std::endl;
+      /* dc.cout() << "Loading graph in line parser " << std::endl; */
       graph2.load(graph_dir, line_parser);
     }
     else{
@@ -420,14 +421,14 @@ int main(int argc, char** argv) {
       return EXIT_FAILURE;
     }
     
-    time_load_graph2 += GetCurrentTimeSec();
-    dc.cout() << "time_load_graph: " << time_load_graph2 << std::endl;
+    /* time_load_graph2 += GetCurrentTimeSec(); */
+    /* dc.cout() << "time_load_graph: " << time_load_graph2 << std::endl; */
     /*GRAPH_TYPE GRAPH_IT(GRAPH);
     GRAPH.COMPLETE_SET();*/
     // must call finalize before querying the graph
     graph2.finalize();
-    dc.cout() << "#vertices:  " << graph2.num_vertices() << std::endl
-              << "#edges:     " << graph2.num_edges() << std::endl;
+    /* dc.cout() << "#vertices:  " << graph2.num_vertices() << std::endl
+              << "#edges:     " << graph2.num_edges() << std::endl; */
 
 
     // Running The Engine -------------------------------------------------------
@@ -437,13 +438,13 @@ int main(int argc, char** argv) {
 
 
     engine2.start();
-    const float runtime2 = engine2.elapsed_seconds();
+    /* const float runtime2 = engine2.elapsed_seconds();
     dc.cout() << "Finished Running engine2 in " << runtime2
-              << " seconds." << std::endl;
+              << " seconds." << std::endl; */
 
 
     // Save the final graph -----------------------------------------------------
-    if (saveprefix_ != "") {
+    if (saveprefix != "") {
       graph2.save(saveprefix_, widest_path_writer(),
                 false,    // do not gzip
                 true,     // save vertices
@@ -452,7 +453,8 @@ int main(int argc, char** argv) {
     }
     graph2.clear();
   }
-
+  total_time += GetCurrentTimeSec();
+  dc.cout() << std::endl << "total time: " << total_time << std::endl;
   // Tear-down communication layer and quit -----------------------------------
   graphlab::mpi_tools::finalize();
   return EXIT_SUCCESS;

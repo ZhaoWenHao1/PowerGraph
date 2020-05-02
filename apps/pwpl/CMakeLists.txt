@@ -1,0 +1,4 @@
+project(pwpl)
+add_graphlab_executable(construct_index_main construct_index_main.cpp )
+add_graphlab_executable(pwpl_benchmark pwpl_benchmark.cpp)
+add_graphlab_executable(mypwpl_benchmark mypwpl_benchmark.cpp)
